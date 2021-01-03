@@ -1,37 +1,39 @@
-= Reference-en
+= Reference-uk
 
-Reference-en is the repo for the Language Reference documentation of the Arduino syntax in **English**.  
-All the Reference terms files are in AsciiDoc format.
+Reference-uk це репозіторій який містить довідникову документацію по синтаксису Arduino **українською** мовою.  
+Усі файли довідників в форматі AsciiDoc.
 
-Thank you for taking the time to contribute to Arduino content, this is really helpful to the whole Arduino Community. If you want to learn more about how to contribute to this project, please check https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[this step by step tutorial].
+Дякуємо що знайшли час 
+Дякуємо, що знайшли час щоб внести свій внесок у Arduino, це дійсно корисно для всієї спільноти Arduino.
+Якщо ви хочете дізнатись більше про те, як зробити свій внесок у цей проект, перегляньте цей
+https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[покроковий посібник].
 
-== Content Creation and Editing
-If you want to contribute new content, create a new file (with any text or code editor) and save it as .adoc.  
-Do not use parenthesis or any special character in the file name.  
-In https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-en/AsciiDoc_sample/AsciiDoc_Dictionary`] you will find an overview of the AsciiDoc syntax. This includes Titles, Text, Links, Images, Tables, Code and various embeds (video, slideshow, audio, and code). You can see it rendered https://www.arduino.cc/reference/en/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[here].
+== Створення та редагування вмісту
+Якщо ви хочете додати новий вміст, створіть новий файл (в будь-якому редакторі тексту або коду) і збережіть його як .adoc.  
+Не використовуйте дужки або будь-які спеціальні символи в назві файлу.  
+Ознайомтесь з описом синтаксису AsciiDoc https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-en/AsciiDoc_sample/AsciiDoc_Dictionary`]. Він містить опис заголовків, тексту, посилань, зображень, таблиць, коду та різних вставок (відео, слайд-шоу, аудіо та код). Ви можете переглянути опис синтаксису https://www.arduino.cc/reference/en/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[тут].
 
-If you want to contribute to the Language Reference or edit existing content, you can find two templates in reference-en/AsciiDoc_sample/Reference_Terms:
+Якщо ви хочете внести свій внесок у Довідник мови або відредагувати наявний вміст, ви можете знайти два шаблони в reference-en/AsciiDoc_sample/Reference_Terms:
 
-* Use https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (rendered https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[here]) for terms such as link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
-* Use https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (rendered https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[here]) for groups of functions such as link:http://arduino.cc/en/Reference/Serial[Serial].
+* Використовуй https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (на сайті https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[тут]) для таких термінів, як link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
+* Використовуй https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (на сайті https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[тут]) для груп функцій, наприклад як link:http://arduino.cc/en/Reference/Serial[Serial].
 
-Please note that every Reference file should include at least a Description, some Example Code, and links to other relevant info (See Also section). 
+Зверни увагу, що кожен довідковий файл повинен містити опис, приклади коду та посилання на іншу відповідну інформацію (див. розділ Також). 
 
-If you need to add images to the Asciidoc please create a folder called attachments in the same directory as the Asciidoc file. Images can be saved in SVG and PNG format, max size 200KB.
+Якщо потрібно додати зображення до Asciidoc, створіть каталог з назвою attachments у тому ж каталозі, що і файл Asciidoc. Зображення можна зберігати у форматі SVG та PNG, з розміром до 200 Кб.
 
-== Contribute Content on Github
-If you are not familiar with Git you can contribute content directly on Github via their online interface. We put together a short Tutorial to show you how - https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[CHECK IT OUT!]
+== Додайте вміст на Github
+Якщо не знайомі з Git, то можна додавати вміст безпосередньо на Github через онлайн-інтерфейс. Ми підготували короткий посібник, щоб показати, як це https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[зробити!]
 
-link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[You can also follow this guide] (written by the Github team) to learn how to edit an .adoc file and propose a file change to the Arduino team.  
-When suggesting a change, please follow the guidelines described in the Reference template files.
+link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[Ви також можете слідувати цьому посібнику] (написаному командою Github), щоб дізнатися, як редагувати файл .adoc та запропонувати зміни команді Arduino.  
+Пропонуючи зміни, будь ласка, дотримуйтесь інструкцій, описаних у файлах з шаблонами довідників.
 
+== Пропозиція змін (Pull Request)
+Ми раді, що ви хочете зробити свій внесок у довідник Arduino: це найкращий спосіб допомогти спільноті.
 
-== Submitting a pull request
-We are glad you want to contribute to the Arduino Reference: that's the best way to help the community.
+Ваш внесок - це додавання або модифікація існуючого коду або повних описів, будь ласка, завжди посилайтеся на існуючий issue або відкрийте новий перед тим, як запропонувати зміни.
 
-Your contribution is adding or modifying existing code or full descriptions, please always refer to an existing issue or open a new one before contributing. 
-
-=== Folder Structure
+=== Структура каталогу
 [source]
 ----
 reference-en
@@ -52,10 +54,10 @@ reference-en
 
 ----
 
-Within the Language folder, the file tree follows the same structure as in the link:https://www.arduino.cc/reference/en[Arduino Reference webpage]
+У папці Language дерево файлів має ту саму структуру, що і на link:https://www.arduino.cc/reference/en[веб-сторінці довідника Arduino].
 
 === License
 
-Please note that your contribution to the Arduino Reference is licensed under a Creative Commons Attribution-Share Alike 3.0 License. see https://creativecommons.org/licenses/by-sa/3.0/
+Зверніть увагу, що ваш внесок у Arduino довідник ліцензований за ліцензією Creative Commons Attribution-Share Alike 3.0. дивись https://creativecommons.org/licenses/by-sa/3.0/
 
-image:https://i.creativecommons.org/l/by-sa/3.0/88x31.png[Creative Commons License, title="Creative Commons License"] This work is licensed under a link:https://creativecommons.org/licenses/by-sa/3.0/deed.en[Creative Commons Attribution-ShareAlike 3.0 Unported License].
+image:https://i.creativecommons.org/l/by-sa/3.0/88x31.png[Creative Commons License, title="Creative Commons License"] Ця робота ліцензована згідно з link:https://creativecommons.org/licenses/by-sa/3.0/deed.en[Creative Commons Attribution-ShareAlike 3.0 Unported License].
