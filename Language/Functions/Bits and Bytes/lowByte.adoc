@@ -16,23 +16,23 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
+=== Опис
 Extracts the low-order (rightmost) byte of a variable (e.g. a word).
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `lowByte(x)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: a value of any type
 
 
 [float]
-=== Returns
+=== Повертає
 Data type: `byte`.
 
 --
@@ -44,7 +44,7 @@ Data type: `byte`.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../../variables/data-types/word[word()]

@@ -13,23 +13,23 @@ title: Mouse.end()
 --
 
 [float]
-=== Description
+=== Опис
 Stops emulating the mouse connected to a computer. To start control, use link:../mousebegin[Mouse.begin()].
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `Mouse.end()`
 
 
 [float]
-=== Parameters
+=== Параметри
 None
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -43,7 +43,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
@@ -76,7 +76,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../mouseclick[Mouse.click()]

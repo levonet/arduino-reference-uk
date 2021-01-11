@@ -17,17 +17,17 @@ subCategories: [ "Arithmetic Operators" ]
 --
 
 [float]
-=== Description
+=== Опис
 *Remainder* operation calculates the remainder when one integer is divided by another. It is useful for keeping a variable within a particular range (e.g. the size of an array). The `%` (percent) symbol is used to carry out remainder operation.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `remainder = dividend % divisor;`
 
 [float]
-=== Parameters
+=== Параметри
 `remainder`: variable. Allowed data types: `int`, `float`, `double`. +
 `dividend`: variable or constant. Allowed data types: `int`. +
 `divisor`: *non zero* variable or constant. Allowed data types: `int`.
@@ -42,7 +42,7 @@ subCategories: [ "Arithmetic Operators" ]
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -72,7 +72,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 1. The remainder operator does not work on floats.
 
 2. If the *first* operand is negative, the result is negative (or zero).
@@ -87,7 +87,7 @@ Therefore, the result of `x % 10` will not always be between 0 and 9 if `x` can 
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

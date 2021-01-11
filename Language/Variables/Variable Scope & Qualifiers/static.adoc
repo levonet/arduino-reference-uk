@@ -12,7 +12,7 @@ subCategories: [ "Variable Scope & Qualifiers" ]
 --
 
 [float]
-=== Description
+=== Опис
 The `static` keyword is used to create variables that are visible to only one function. However unlike local variables that get created and destroyed every time a function is called, static variables persist beyond the function call, preserving their data between function calls.
 
 Variables declared as static will only be created and initialized the first time a function is called.
@@ -29,7 +29,7 @@ Variables declared as static will only be created and initialized the first time
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
@@ -90,7 +90,7 @@ int randomWalk(int moveSize) {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

@@ -13,23 +13,23 @@ title: Keyboard.release()
 --
 
 [float]
-=== Description
+=== Опис
 Lets go of the specified key. See link:../keyboardpress[Keyboard.press()] for more information.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `Keyboard.release(key)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `key`: the key to release. Allowed data types: `char`.
 
 
 [float]
-=== Returns
+=== Повертає
 The number of keys released. Data type: `size_t`.
 
 --
@@ -43,7 +43,7 @@ The number of keys released. Data type: `size_t`.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 

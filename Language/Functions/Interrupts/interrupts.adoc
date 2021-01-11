@@ -16,23 +16,23 @@ subCategories: [ "Interrupts" ]
 --
 
 [float]
-=== Description
+=== Опис
 Re-enables interrupts (after they've been disabled by link:../nointerrupts[noInterrupts()]. Interrupts allow certain important tasks to happen in the background and are enabled by default. Some functions will not work while interrupts are disabled, and incoming communication may be ignored. Interrupts can slightly disrupt the timing of code, however, and may be disabled for particularly critical sections of code.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `interrupts()`
 
 
 [float]
-=== Parameters
+=== Параметри
 None
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -46,7 +46,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The code enables Interrupts.
 
@@ -71,7 +71,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../external-interrupts/attachinterrupt[attachInterrupts()]

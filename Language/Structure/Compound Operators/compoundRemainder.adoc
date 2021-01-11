@@ -17,18 +17,18 @@ subCategories: [ "Compound Operators" ]
 --
 
 [float]
-=== Description
+=== Опис
 This is a convenient shorthand to calculate the remainder when one integer is divided by another and assign it back to the variable the calculation was done on.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `x %= divisor;   // equivalent to the expression x = x % divisor;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: variable. Allowed data types: `int`. +
 `divisor`: *non zero* variable or constant. Allowed data types: `int`.
 
@@ -42,7 +42,7 @@ This is a convenient shorthand to calculate the remainder when one integer is di
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -52,7 +52,7 @@ x %= 5;    // x now contains 2
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 1. The compound remainder operator does not work on floats.
 
 2. If the *first* operand is negative, the result is negative (or zero).
@@ -69,7 +69,7 @@ Therefore, the result of `x %= 10` will not always be between 0 and 9 if `x` can
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE#  link:../../arithmetic-operators/remainder[Remainder]

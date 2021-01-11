@@ -16,23 +16,23 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
+=== Опис
 Analyse if a char is punctuation (that is a comma, a semicolon, an exclamation mark and so on). Returns true if thisChar is punctuation.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `isPunct(thisChar)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `thisChar`: variable. Allowed data types: `char`.
 
 
 [float]
-=== Returns
+=== Повертає
 `true`: if thisChar is a punctuation.
 
 --
@@ -45,7 +45,7 @@ Analyse if a char is punctuation (that is a comma, a semicolon, an exclamation m
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -66,7 +66,7 @@ else {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

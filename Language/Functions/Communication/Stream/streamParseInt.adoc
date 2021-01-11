@@ -13,7 +13,7 @@ title: Stream.parseInt()
 --
 
 [float]
-=== Description
+=== Опис
 `parseInt()` returns the first valid (long) integer number from the current position.
 
 In particular:
@@ -26,14 +26,14 @@ This function is part of the Stream class, and can be called by any class that i
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `stream.parseInt()` +
 `stream.parseInt(lookahead)` +
 `stream.parseInt(lookahead, ignore)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `stream` : an instance of a class that inherits from Stream. +
 `lookahead`: the mode used to look ahead in the stream for an integer. Allowed data types: `LookaheadMode`. Allowed `lookahead` values:
 
@@ -45,7 +45,7 @@ This function is part of the Stream class, and can be called by any class that i
 
 
 [float]
-=== Returns
+=== Повертає
 Data type: `long`.
 
 --

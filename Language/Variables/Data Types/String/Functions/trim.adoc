@@ -16,24 +16,24 @@ subCategories: [ "StringObject Function" ]
 --
 
 [float]
-=== Description
+=== Опис
 Get a version of the String with any leading and trailing whitespace removed. As of 1.0, trim() modifies the String in place rather than returning a new one.
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString.trim()`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString`: a variable of type String.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -49,7 +49,7 @@ Nothing
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

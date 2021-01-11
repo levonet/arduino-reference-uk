@@ -12,7 +12,7 @@ subCategories: [ "Advanced I/O" ]
 --
 
 [float]
-=== Description
+=== Опис
 Shifts out a byte of data one bit at a time. Starts from either the most (i.e. the leftmost) or least (rightmost) significant bit. Each bit is written in turn to a data pin, after which a clock pin is pulsed (taken high, then low) to indicate that the bit is available.
 
 Note- if you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the call to `shiftOut()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
@@ -22,12 +22,12 @@ This is a software implementation; see also the https://www.arduino.cc/en/Refere
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `shiftOut(dataPin, clockPin, bitOrder, value)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `dataPin`: the pin on which to output each bit. Allowed data types: `int`. +
 `clockPin`: the pin to toggle once the dataPin has been set to the correct value. Allowed data types: `int`. +
 `bitOrder`: which order to shift out the bits; either MSBFIRST or LSBFIRST. (Most Significant Bit First, or, Least Significant Bit First). +
@@ -35,7 +35,7 @@ This is a software implementation; see also the https://www.arduino.cc/en/Refere
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -49,7 +49,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 For accompanying circuit, see the https://arduino.cc/en/Tutorial/ShiftOut[tutorial on controlling a 74HC595 shift register].
 
@@ -94,7 +94,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 The dataPin and clockPin must already be configured as outputs by a call to link:../../digital-io/pinmode[pinMode()].
 
 shiftOut is currently written to output 1 byte (8 bits) so it requires a two step operation to output values larger than 255.
@@ -125,7 +125,7 @@ shiftOut(dataPin, clock, LSBFIRST, (data >> 8));
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

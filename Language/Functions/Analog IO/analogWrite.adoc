@@ -16,7 +16,7 @@ subCategories: [ "Analog I/O" ]
 --
 
 [float]
-=== Description
+=== Опис
 Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to `analogWrite()`, the pin will generate a steady rectangular wave of the specified duty cycle until the next call to `analogWrite()` (or a call to `digitalRead()` or `digitalWrite()`) on the same pin. 
 [options="header"]
 |========================================================================================================
@@ -44,18 +44,18 @@ The `analogWrite` function has nothing to do with the analog pins or the `analog
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `analogWrite(pin, value)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `pin`: the Arduino pin to write to. Allowed data types: `int`. +
 `value`: the duty cycle: between 0 (always off) and 255 (always on). Allowed data types: `int`.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -69,7 +69,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 Sets the output to the LED proportional to the value read from the potentiometer.
 
 
@@ -92,7 +92,7 @@ void loop() {
 
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 The PWM outputs generated on pins 5 and 6 will have higher-than-expected duty cycles. This is because of interactions with the `millis()` and `delay()` functions, which share the same internal timer used to generate those PWM outputs. This will be noticed mostly on low duty-cycle settings (e.g. 0 - 10) and may result in a value of 0 not fully turning off the output on pins 5 and 6.
 
 --
@@ -104,7 +104,7 @@ The PWM outputs generated on pins 5 and 6 will have higher-than-expected duty cy
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../zero-due-mkr-family/analogwriteresolution[analogWriteResolution()]

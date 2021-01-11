@@ -13,13 +13,13 @@ title: serialEvent()
 --
 
 [float]
-=== Description
+=== Опис
 Called when data is available. Use `Serial.read()` to capture this data.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 
 [source,arduino]
 ----
@@ -45,12 +45,12 @@ void serialEvent3() {
 
 
 [float]
-=== Parameters
+=== Параметри
 `statements`: any valid statements
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -62,7 +62,7 @@ Nothing
 --
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 `serialEvent()` doesn't work on the Leonardo, Micro, or Yún.
 
 `serialEvent()` and `serialEvent1()` don't work on the Arduino SAMD Boards
@@ -79,7 +79,7 @@ Nothing
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/SerialEvent[Serial Event^]

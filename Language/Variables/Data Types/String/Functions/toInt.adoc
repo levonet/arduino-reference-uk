@@ -16,24 +16,24 @@ subCategories: [ "StringObject Function" ]
 --
 
 [float]
-=== Description
+=== Опис
 Converts a valid String to an integer. The input String should start with an integer number. If the String contains non-integer numbers, the function will stop performing the conversion.
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString.toInt()`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString`: a variable of type `String`.
 
 
 [float]
-=== Returns
+=== Повертає
 If no valid conversion could be performed because the String doesn't start with a integer number, a zero is returned. Data type: `long`.
 
 --
@@ -49,7 +49,7 @@ If no valid conversion could be performed because the String doesn't start with 
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

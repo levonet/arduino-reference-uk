@@ -16,7 +16,7 @@ subCategories: [ "Constants" ]
 --
 
 [float]
-=== Description
+=== Опис
 Integer constants are numbers that are used directly in a sketch, like 123. By default, these numbers are treated as link:../../data-types/int[int] but you can change this with the U and L modifiers (see below).
 [%hardbreaks]
 
@@ -61,7 +61,7 @@ Normally, integer constants are treated as base 10 (decimal) integers, but speci
 This is the common-sense math with which you are acquainted. Constants without other prefixes are assumed to be in decimal format.
 
 [float]
-=== Example  Code:
+=== Приклад коду
 [source,arduino]
 ----
 n = 101;  // same as 101 decimal ((1 * 10^2) + (0 * 10^1) + 1)
@@ -73,7 +73,7 @@ n = 101;  // same as 101 decimal ((1 * 10^2) + (0 * 10^1) + 1)
 Only the characters 0 and 1 are valid.
 
 [float]
-=== Example  Code:
+=== Приклад коду
 [source,arduino]
 ----
 n = 0b101; // same as 5 decimal ((1 * 2^2) + (0 * 2^1) + 1)
@@ -85,7 +85,7 @@ n = 0b101; // same as 5 decimal ((1 * 2^2) + (0 * 2^1) + 1)
 Only the characters 0 through 7 are valid. Octal values are indicated by the prefix "0" (zero).
 
 [float]
-=== Example  Code:
+=== Приклад коду
 [source,arduino]
 ----
 n = 0101; // same as 65 decimal ((1 * 8^2) + (0 * 8^1) + 1)
@@ -98,7 +98,7 @@ It is possible to generate a hard-to-find bug by (unintentionally) including a l
 Valid characters are 0 through 9 and letters A through F; A has the value 10, B is 11, up to F, which is 15. Hex values are indicated by the prefix "0x". Note that A-F may be upper (A-F) or lower case (a-f).
 
 [float]
-=== Example  Code:
+=== Приклад коду
 [source,arduino]
 ----
 n = 0x101;  // same as 257 decimal ((1 * 16^2) + (0 * 16^1) + 1)
@@ -107,7 +107,7 @@ n = 0x101;  // same as 257 decimal ((1 * 16^2) + (0 * 16^1) + 1)
 
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 *U & L formatters:*
 
 By default, an integer constant is treated as an int with the attendant limitations in values. To specify an integer constant with another data type, follow it with:
@@ -129,7 +129,7 @@ By default, an integer constant is treated as an int with the attendant limitati
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

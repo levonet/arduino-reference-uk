@@ -17,24 +17,24 @@ subCategories: [ "StringObject Operator" ]
 --
 
 [float]
-=== Description
+=== Опис
 It concatenates Strings with other data.
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString1 += data`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString1`: a String variable.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -51,7 +51,7 @@ Nothing
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

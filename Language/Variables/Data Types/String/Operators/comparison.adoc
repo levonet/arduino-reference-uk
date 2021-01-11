@@ -13,7 +13,7 @@ subCategories: [ "StringObject Operator" ]
 --
 
 [float]
-=== Description
+=== Опис
 Compares two Strings for equality. The comparison is case-sensitive, meaning the String "hello" is not equal to the String "HELLO". Functionally the same as string.equals()
 
 
@@ -21,17 +21,17 @@ Compares two Strings for equality. The comparison is case-sensitive, meaning the
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString1 == myString2`
 
 [float]
-=== Parameters
+=== Параметри
 `myString1`: a String variable. +
 `myString2`: a String variable.
 
 
 [float]
-=== Returns
+=== Повертає
 `true`: if myString1 equals myString2. + 
 `false`: otherwise.
 
@@ -49,7 +49,7 @@ Compares two Strings for equality. The comparison is case-sensitive, meaning the
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

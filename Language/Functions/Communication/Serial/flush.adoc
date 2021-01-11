@@ -13,7 +13,7 @@ title: Serial.flush()
 --
 
 [float]
-=== Description
+=== Опис
 Waits for the transmission of outgoing serial data to complete. (Prior to Arduino 1.0, this instead removed any buffered incoming serial data.)
 
 `flush()` inherits from the link:../flush[Stream] utility class.
@@ -21,17 +21,17 @@ Waits for the transmission of outgoing serial data to complete. (Prior to Arduin
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `_Serial_.flush()`
 
 
 [float]
-=== Parameters
+=== Параметри
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -43,7 +43,7 @@ Nothing
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()]

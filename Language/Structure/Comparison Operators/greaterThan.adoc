@@ -17,18 +17,18 @@ subCategories: [ "Comparison Operators" ]
 --
 
 [float]
-=== Description
+=== Опис
 Compares the variable on the left with the value or variable on the right of the operator. Returns true when the operand on the left is greater (bigger) than the operand on the right. Please note that you may compare variables of different data types, but that could generate unpredictable results, it is therefore recommended to compare variables of the same data type including the signed/unsigned type.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `x > y;  // is true if x is bigger than y and it is false if x is equal or smaller than y`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
 `y`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
 
@@ -42,7 +42,7 @@ Compares the variable on the left with the value or variable on the right of the
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -53,7 +53,7 @@ if (x > y) {  // tests if x is greater (bigger) than y
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 Positive numbers are greater than negative numbers.
 [%hardbreaks]
 
@@ -68,7 +68,7 @@ Positive numbers are greater than negative numbers.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

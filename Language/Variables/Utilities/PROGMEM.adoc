@@ -16,7 +16,7 @@ subCategories: [ "Utilities" ]
 --
 
 [float]
-=== Description
+=== Опис
 Store data in flash (program) memory instead of SRAM. There's a description of the various http://www.arduino.cc/playground/Learning/Memory[types of memory] available on an Arduino board.
 
 The `PROGMEM` keyword is a variable modifier, it should be used only with the datatypes defined in pgmspace.h. It tells the compiler "put this information into flash memory", instead of into SRAM, where it would normally go.
@@ -31,7 +31,7 @@ Using `PROGMEM` is also a two-step procedure. After getting the data into Flash 
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `const dataType variableName[] PROGMEM = {data0, data1, data3...};`
 
 Note that because PROGMEM is a variable modifier, there is no hard and fast rule about where it should go, so the Arduino compiler accepts all of the definitions below, which are also synonymous. However, experiments have indicated that, in various versions of Arduino (having to do with GCC version), PROGMEM may work in one location and not in another. The "string table" example below has been tested to work with Arduino 13. Earlier versions of the IDE may work better if PROGMEM is included after the variable name.
@@ -42,7 +42,7 @@ Note that because PROGMEM is a variable modifier, there is no hard and fast rule
 
 
 [float]
-=== Parameters
+=== Параметри
 `dataType`: Allowed data types: any variable type. +
 `variableName`: the name for your array of data.
 
@@ -57,7 +57,7 @@ Note that because PROGMEM is a variable modifier, there is no hard and fast rule
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The following code fragments illustrate how to read and write unsigned chars (bytes) and ints (2 bytes) to PROGMEM.
 
@@ -160,7 +160,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 Please note that variables must be either globally defined, OR defined with the static keyword, in order to work with PROGMEM.
 
 The following code will NOT work when inside a function:
@@ -202,7 +202,7 @@ Serial.print(F("Write something on the Serial Monitor that is stored in FLASH"))
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/playground/Learning/Memory[Types of memory available on an Arduino board^]

@@ -13,25 +13,25 @@ title: Mouse.move()
 --
 
 [float]
-=== Description
+=== Опис
 Moves the cursor on a connected computer. The motion onscreen is always relative to the cursor's current location. Before using `Mouse.move()` you must call link:../mousebegin[Mouse.begin()]
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `Mouse.move(xVal, yVal, wheel)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `xVal`: amount to move along the x-axis. Allowed data types: `signed char`. +
 `yVal`: amount to move along the y-axis. Allowed data types: `signed char`. +
 `wheel`: amount to move scroll wheel. Allowed data types: `signed char`.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -45,7 +45,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
@@ -122,7 +122,7 @@ int readAxis(int axisNumber) {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 When you use the `Mouse.move()` command, the Arduino takes over your mouse! Make sure you have control before you use the command. A pushbutton to toggle the mouse control state is effective.
 
 --
@@ -134,7 +134,7 @@ When you use the `Mouse.move()` command, the Arduino takes over your mouse! Make
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../mouseclick[Mouse.click()]

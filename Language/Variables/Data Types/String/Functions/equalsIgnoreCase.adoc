@@ -16,25 +16,25 @@ subCategories: [ "StringObject Function" ]
 --
 
 [float]
-=== Description
+=== Опис
 Compares two Strings for equality. The comparison is not case-sensitive, meaning the String("hello") is equal to the String("HELLO").
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString.equalsIgnoreCase(myString2)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString`: variable of type `String`. +
 `myString2`: variable of type `String`.
 
 
 [float]
-=== Returns
+=== Повертає
 `true`: if myString equals myString2 (ignoring case). +
 `false`: otherwise.
 
@@ -51,7 +51,7 @@ Compares two Strings for equality. The comparison is not case-sensitive, meaning
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

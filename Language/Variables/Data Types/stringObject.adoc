@@ -11,7 +11,7 @@ subCategories: [ "Data Types" ]
 --
 
 [float]
-=== Description
+=== Опис
 Constructs an instance of the String class. There are multiple versions that construct Strings from different data types (i.e. format them as sequences of characters), including:
 
 * a constant string of characters, in double quotes (i.e. a char array)
@@ -48,21 +48,21 @@ gives you the String "1101", which is the binary representation of 13.
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `String(val)` +
 `String(val, base)` +
 `String(val, decimalPlaces)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `val`:  a variable to format as a String. Allowed data types: string, char, byte, int, long, unsigned int, unsigned long, float, double. +
 `base`: (optional) the base in which to format an integral value. +
 `decimalPlaces`: *only if val is float or double*. The desired decimal places.
 
 
 [float]
-=== Returns
+=== Повертає
 An instance of the String class.
 
 --
@@ -75,7 +75,7 @@ An instance of the String class.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 All of the following are valid declarations for Strings.
 [source,arduino]
 ----
@@ -96,7 +96,7 @@ String stringOne = String(5.698, 3);                  // using a float and the d
 
 
 [float]
-=== Functions
+=== Функції
 
 [role="language"]
 * #LANGUAGE# link:../string/functions/charat[charAt()]
@@ -125,7 +125,7 @@ String stringOne = String(5.698, 3);                  // using a float and the d
 * #LANGUAGE# link:../string/functions/trim[trim()]
 
 [float]
-=== Operators
+=== Оператори
 
 [role="language"]
 * #LANGUAGE# link:../string/operators/elementaccess[[\] (element access)]
@@ -147,7 +147,7 @@ String stringOne = String(5.698, 3);                  // using a float and the d
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

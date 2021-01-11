@@ -13,7 +13,7 @@ title: if(Serial)
 --
 
 [float]
-=== Description
+=== Опис
 Indicates if the specified Serial port is ready.
 
 On the boards with native USB, `if (Serial)` (or `if(SerialUSB)` on the Due) indicates whether or not the USB CDC serial connection is open. For all other boards, and the non-USB CDC ports, this will always return true.
@@ -23,17 +23,17 @@ This was introduced in Arduino IDE 1.0.1.
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `if (Serial)`
 
 
 [float]
-=== Parameters
+=== Параметри
 None
 
 
 [float]
-=== Returns
+=== Повертає
 Returns true if the specified serial port is available. This will only return false if querying the Leonardo's USB CDC serial connection before it is ready. Data type: `bool`.
 
 --
@@ -47,7 +47,7 @@ Returns true if the specified serial port is available. This will only return fa
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 

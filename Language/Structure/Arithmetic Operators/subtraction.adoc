@@ -17,18 +17,18 @@ subCategories: [ "Arithmetic Operators" ]
 --
 
 [float]
-=== Description
+=== Опис
 *Subtraction* is one of the four primary arithmetic operations. The operator `-` (minus) operates on two operands to produce the difference of the second from the first.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `difference = operand1 - operand2;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `difference`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
 `operand1`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
 `operand2`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
@@ -44,7 +44,7 @@ subCategories: [ "Arithmetic Operators" ]
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -56,7 +56,7 @@ c = a - b;  // the variable 'c' gets a value of -5 after this statement is execu
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 1. The subtraction operation can overflow if the result is smaller than that which can be stored in the data type (e.g. subtracting 1 from an integer with the value -32,768 gives 32,767).
 
 2. If one of the numbers (operands) are of the type float or of type double, floating point math will be used for the calculation.
@@ -83,7 +83,7 @@ c = a - b;  // the variable 'c' stores a value of -1 only as opposed to the expe
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

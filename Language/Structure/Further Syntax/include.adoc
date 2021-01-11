@@ -17,7 +17,7 @@ subCategories: [ "Further Syntax" ]
 --
 
 [float]
-=== Description
+=== Опис
 `#include` is used to include outside libraries in your sketch. This gives the programmer access to a large group of standard C libraries (groups of pre-made functions), and also libraries written especially for Arduino.
 [%hardbreaks]
 
@@ -29,13 +29,13 @@ Note that `#include`, similar to `link:../define[#define]`, has no semicolon ter
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `#include <LibraryFile.h>` +
 `#include "LocalFile.h"`
 
 
 [float]
-=== Parameters
+=== Параметри
 `LibraryFile.h`: when the angle brackets syntax is used, the libraries paths will be searched for the file. +
 `LocalFile.h`: When the double quotes syntax is used, the folder of the file using the `#include` directive will be searched for the specified file, then the libraries paths if it was not found in the local path. Use this syntax for header files in the sketch's folder.
 
@@ -50,7 +50,7 @@ Note that `#include`, similar to `link:../define[#define]`, has no semicolon ter
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 This example includes the Servo library so that its functions may be used to control a Servo motor.
 
 
@@ -88,7 +88,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

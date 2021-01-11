@@ -16,24 +16,24 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
+=== Опис
 Clears (writes a 0 to) a bit of a numeric variable.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `bitClear(x, n)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: the numeric variable whose bit to clear. +
 `n`: which bit to clear, starting at 0 for the least-significant (rightmost) bit.
 
 
 [float]
-=== Returns
+=== Повертає
 `x`: the value of the numeric variable after the bit at position `n` is cleared.
 
 --
@@ -46,7 +46,7 @@ Clears (writes a 0 to) a bit of a numeric variable.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code
 Prints the output of `bitClear(x,n)` on two given integers. The binary representation of 6 is 0110, so when `n=1`, the second bit from the right is set to 0. After this we are left with 0100 in binary, so 4 is returned.
 
@@ -78,7 +78,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

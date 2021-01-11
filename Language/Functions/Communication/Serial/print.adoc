@@ -13,7 +13,7 @@ title: Serial.print()
 --
 
 [float]
-=== Description
+=== Опис
 Prints data to the serial port as human-readable ASCII text. This command can take many forms. Numbers are printed using an ASCII character for each digit. Floats are similarly printed as ASCII digits, defaulting to two decimal places. Bytes are sent as a single character. Characters and strings are sent as is. For example-
 
 * `_Serial_.print(78)` gives "78" +
@@ -41,19 +41,19 @@ To send data without conversion to its representation as characters, use link:..
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `_Serial_.print(val)` +
 `_Serial_.print(val, format)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
 `val`: the value to print. Allowed data types: any data type.
 
 
 [float]
-=== Returns
+=== Повертає
 `print()` returns the number of bytes written, though reading that number is optional. Data type: `size_t`.
 
 --
@@ -67,7 +67,7 @@ To send data without conversion to its representation as characters, use link:..
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
@@ -121,7 +121,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 For information on the asyncronicity of `_Serial_.print()`, see the Notes and Warnings section of the link:../write#howtouse[Serial.write() reference page].
 
 --
@@ -133,7 +133,7 @@ For information on the asyncronicity of `_Serial_.print()`, see the Notes and Wa
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()]

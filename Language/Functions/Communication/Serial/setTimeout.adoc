@@ -13,7 +13,7 @@ title: Serial.setTimeout()
 --
 
 [float]
-=== Description
+=== Опис
 `Serial.setTimeout()` sets the maximum milliseconds to wait for serial data. It defaults to 1000 milliseconds.
 
 `Serial.setTimeout()` inherits from the link:../../stream[Stream] utility class.
@@ -21,18 +21,18 @@ title: Serial.setTimeout()
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `_Serial_.setTimeout(time)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
 `time`: timeout duration in milliseconds. Allowed data types: `long`.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -44,7 +44,7 @@ Nothing
 --
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 Serial functions that use the timeout value set via `_Serial_.setTimeout()`:
 
 * `_Serial_.find()`
@@ -67,7 +67,7 @@ Serial functions that use the timeout value set via `_Serial_.setTimeout()`:
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../stream[stream]

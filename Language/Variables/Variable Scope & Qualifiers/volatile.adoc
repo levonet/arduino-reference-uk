@@ -16,7 +16,7 @@ subCategories: [ "Variable Scope & Qualifiers" ]
 --
 
 [float]
-=== Description
+=== Опис
 `volatile` is a keyword known as a variable _qualifier_, it is usually used before the datatype of a variable, to modify the way in which the compiler and subsequent program treat the variable.
 
 Declaring a variable `volatile` is a directive to the compiler. The compiler is software which translates your C/C++ code into the machine code, which are the real instructions for the Atmega chip in the Arduino.
@@ -52,7 +52,7 @@ There are several ways to do this:
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 The `volatile` modifier ensures that changes to the `state` variable are immediately visible in `loop()`. Without the `volatile` modifier, the `state` variable may be loaded into a register when entering the function and would not be updated anymore until the function ends.
@@ -113,7 +113,7 @@ volatile int input_from_interrupt;
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../../functions/external-interrupts/attachinterrupt[attachInterrupt]

@@ -16,24 +16,24 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
+=== Опис
 Calculates the value of a number raised to a power. `pow()` can be used to raise a number to a fractional power. This is useful for generating exponential mapping of values or curves.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `pow(base, exponent)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `base`: the number. Allowed data types: `float`. +
 `exponent`: the power to which the base is raised. Allowed data types: `float`.
 
 
 [float]
-=== Returns
+=== Повертає
 The result of the exponentiation. Data type: `double`.
 
 --
@@ -45,7 +45,7 @@ The result of the exponentiation. Data type: `double`.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 Calculate the value of x raised to the power of y:
 [source,arduino]
@@ -64,7 +64,7 @@ See the (http://arduino.cc/playground/Main/Fscale[fscale]) sketch for a more com
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="definition"]
 * #DEFINITION# link:../../../variables/data-types/float[float]

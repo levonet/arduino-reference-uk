@@ -16,24 +16,24 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
+=== Опис
 Reads a bit of a number.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `bitRead(x, n)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: the number from which to read. +
 `n`: which bit to read, starting at 0 for the least-significant (rightmost) bit.
 
 
 [float]
-=== Returns
+=== Повертає
 The value of the bit (0 or 1).
 
 --
@@ -45,7 +45,7 @@ The value of the bit (0 or 1).
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

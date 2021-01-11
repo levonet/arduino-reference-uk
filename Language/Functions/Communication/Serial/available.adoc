@@ -10,7 +10,7 @@ title: Serial.available()
 --
 
 [float]
-=== Description
+=== Опис
 Get the number of bytes (characters) available for reading from the serial port. This is data that's already arrived and stored in the serial receive buffer (which holds 64 bytes).
 
 `Serial.available()` inherits from the link:../../stream[Stream] utility class.
@@ -18,17 +18,17 @@ Get the number of bytes (characters) available for reading from the serial port.
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `_Serial_.available()`
 
 
 [float]
-=== Parameters
+=== Параметри
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
 
 [float]
-=== Returns
+=== Повертає
 The number of bytes available to read.
 
 --
@@ -38,7 +38,7 @@ The number of bytes available to read.
 [#howtouse]
 --
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The following code returns a character received through the serial port.
 
@@ -97,7 +97,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()] +

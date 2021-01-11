@@ -16,7 +16,7 @@ subCategories: [ "Digital I/O" ]
 --
 
 [float]
-=== Description
+=== Опис
 Write a `HIGH` or a `LOW` value to a digital pin.
 
 If the pin has been configured as an `OUTPUT` with `pinMode()`, its voltage will be set to the corresponding value: 5V (or 3.3V on 3.3V boards) for `HIGH`, 0V (ground) for `LOW`.
@@ -29,18 +29,18 @@ If you do not set the `pinMode()` to `OUTPUT`, and connect an LED to a pin, when
 [%hardbreaks]
 
 [float]
-=== Syntax
+=== Синтаксис
 `digitalWrite(pin, value)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `pin`: the Arduino pin number. +
 `value`: `HIGH` or `LOW`.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -54,7 +54,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The code makes the digital pin 13 an `OUTPUT` and toggles it by alternating between `HIGH` and `LOW` at one second pace.
 
@@ -74,7 +74,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 The analog input pins can be used as digital pins, referred to as A0, A1, etc. The exception is the Arduino Nano, Pro Mini, and Mini's A6 and A7 pins, which can only be used as analog inputs.
 
 --
@@ -86,7 +86,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc. T
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Description of the digital pins^]

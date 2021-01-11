@@ -16,7 +16,7 @@ subCategories: [ "Variable Scope & Qualifiers" ]
 --
 
 [float]
-=== Description
+=== Опис
 Variables in the C++ programming language, which Arduino uses, have a property called scope. This is in contrast to early versions of languages such as BASIC where every variable is a _global_ variable.
 
 A global variable is one that can be seen by every function in a program. Local variables are only visible to the function in which they are declared. In the Arduino environment, any variable declared outside of a function (e.g. `link:../../../structure/sketch/setup[setup()]`, `link:../../../structure/sketch/loop[loop()]`, etc. ), is a _global_ variable.
@@ -37,7 +37,7 @@ It is also sometimes handy to declare and initialize a variable inside a `link:.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
@@ -71,7 +71,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

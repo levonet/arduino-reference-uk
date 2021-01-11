@@ -15,7 +15,7 @@ subCategories: [ "Communication" ]
 --
 
 [float]
-=== Description
+=== Опис
 Used for communication between the Arduino board and a computer or other devices. All Arduino boards have at least one serial port (also known as a UART or USART), and some have several.
 [options="header"]
 |================================================================================================================================================
@@ -50,7 +50,7 @@ To use these extra serial ports to communicate with your personal computer, you 
 '''
 
 [float]
-=== Functions
+=== Функції
 link:../serial/ifserial[if(Serial)] +
 link:../serial/available[available()] +
 link:../serial/availableforwrite[availableForWrite()] +
@@ -84,7 +84,7 @@ link:../serial/serialevent[serialEvent()]
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/ReadASCIIString[ReadASCIIString^]

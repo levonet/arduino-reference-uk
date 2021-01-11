@@ -16,22 +16,22 @@ subCategories: [ "Conversion" ]
 --
 
 [float]
-=== Description
+=== Опис
 Converts a value to the `link:../../data-types/unsignedint[unsigned int]` data type.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `(unsigned int)x`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: a value of any type
 
 [float]
-=== Returns
+=== Повертає
 link:../../data-types/unsignedint[`unsigned int`]
 
 --
@@ -45,7 +45,7 @@ link:../../data-types/unsignedint[`unsigned int`]
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../data-types/unsignedint[unsigned int]

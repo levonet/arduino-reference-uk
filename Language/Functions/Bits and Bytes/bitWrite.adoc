@@ -16,25 +16,25 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
+=== Опис
 Writes a bit of a numeric variable.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `bitWrite(x, n, b)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: the numeric variable to which to write. +
 `n`: which bit of the number to write, starting at 0 for the least-significant (rightmost) bit. +
 `b`: the value to write to the bit (0 or 1).
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -46,7 +46,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 Demonstrates the use of bitWrite by printing the value of a variable to the Serial Monitor before and after the use of `bitWrite()`.
 
 
@@ -73,7 +73,7 @@ void loop() {}
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

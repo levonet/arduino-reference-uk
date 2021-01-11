@@ -16,26 +16,26 @@ subCategories: [ "StringObject Function" ]
 --
 
 [float]
-=== Description
+=== Опис
 Copies the String's characters to the supplied buffer.
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString.toCharArray(buf, len)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString`: a variable of type `String`. +
 `buf`: the buffer to copy the characters into. Allowed data types: array of `char`. +
 `len`: the size of the buffer. Allowed data types: `unsigned int`.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -51,7 +51,7 @@ Nothing
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

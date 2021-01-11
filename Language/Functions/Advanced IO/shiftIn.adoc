@@ -16,7 +16,7 @@ subCategories: [ "Advanced I/O" ]
 --
 
 [float]
-=== Description
+=== Опис
 Shifts in a byte of data one bit at a time. Starts from either the most (i.e. the leftmost) or least (rightmost) significant bit. For each bit, the clock pin is pulled high, the next bit is read from the data line, and then the clock pin is taken low.
 
 If you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the first call to `shiftIn()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
@@ -26,19 +26,19 @@ Note: this is a software implementation; Arduino also provides an link:https://w
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `byte incoming = shiftIn(dataPin, clockPin, bitOrder)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `dataPin`: the pin on which to input each bit. Allowed data types: `int`. +
 `clockPin`: the pin to toggle to signal a read from *dataPin*. +
 `bitOrder`: which order to shift in the bits; either *MSBFIRST* or *LSBFIRST*. (Most Significant Bit First, or, Least Significant Bit First).
 
 
 [float]
-=== Returns
+=== Повертає
 The value read. Data type: `byte`.
 
 --
@@ -50,7 +50,7 @@ The value read. Data type: `byte`.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

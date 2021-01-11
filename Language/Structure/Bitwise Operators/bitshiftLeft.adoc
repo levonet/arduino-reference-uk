@@ -17,18 +17,18 @@ subCategories: [ "Bitwise Operators" ]
 --
 
 [float]
-=== Description
+=== Опис
 The left shift operator `<<` causes the bits of the left operand to be shifted *left* by the number of positions specified by the right operand.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `variable << number_of_bits;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `variable`: Allowed data types: `byte`, `int`, `long`. +
 `number_of_bits`: a number that is < = 32. Allowed data types: `int`.
 
@@ -42,7 +42,7 @@ The left shift operator `<<` causes the bits of the left operand to be shifted *
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -52,7 +52,7 @@ int b = a << 3; // binary: 0000000000101000, or 40 in decimal
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 When you shift a value x by y bits (x << y), the leftmost y bits in x are lost, literally shifted out of existence:
 
 [source,arduino]
@@ -109,7 +109,7 @@ void printOut1(int c) {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

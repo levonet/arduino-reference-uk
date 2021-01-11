@@ -16,13 +16,13 @@ subCategories: [ "Control Structure" ]
 --
 
 [float]
-=== Description
+=== Опис
 The `for` statement is used to repeat a block of statements enclosed in curly braces. An increment counter is usually used to increment and terminate the loop. The `for` statement is useful for any repetitive operation, and is often used in combination with arrays to operate on collections of data/pins.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 [source,arduino]
 ----
 for (initialization; condition; increment) {
@@ -32,7 +32,7 @@ for (initialization; condition; increment) {
 
 
 [float]
-=== Parameters
+=== Параметри
 `initialization`: happens first and exactly once. +
 `condition`: each time through the loop, `condition` is tested; if it's `link:../../../variables/constants/constants[true]`, the statement block, and the *increment* is executed, then the *condition* is tested again. When the *condition* becomes `link:../../../variables/constants/constants[false]`, the loop ends. +
 `increment`: executed each time through the loop when `condition` is link:../../../variables/constants/constants[`true`].
@@ -48,7 +48,7 @@ for (initialization; condition; increment) {
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 [source,arduino]
 ----
 // Dim an LED using a PWM pin
@@ -68,7 +68,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 The pass:[C++] `for` loop is much more flexible than `for` loops found in some other computer languages, including BASIC. Any or all of the three header elements may be omitted, although the semicolons are required. Also the statements for initialization, condition, and increment can be any valid pass:[C++] statements with unrelated variables, and use any pass:[C++] datatypes including floats. These types of unusual `for` statements may provide solutions to some rare programming problems.
 [%hardbreaks]
 
@@ -110,7 +110,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

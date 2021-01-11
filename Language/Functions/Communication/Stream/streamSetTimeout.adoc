@@ -13,24 +13,24 @@ title: Stream.setTimeout()
 --
 
 [float]
-=== Description
+=== Опис
 `setTimeout()` sets the maximum milliseconds to wait for stream data, it defaults to 1000 milliseconds. This function is part of the Stream class, and can be called by any class that inherits from it (Wire, Serial, etc). See the link:../../stream[Stream class] main page for more information.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `stream.setTimeout(time)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `stream`: an instance of a class that inherits from Stream. +
 `time`: timeout duration in milliseconds. Allowed data types: `long`.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -42,7 +42,7 @@ Nothing
 --
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 Stream functions that use the timeout value set via `setTimeout()`:
 
 * `find()`

@@ -16,7 +16,7 @@ subCategories: [ "Time" ]
 --
 
 [float]
-=== Description
+=== Опис
 Pauses the program for the amount of time (in microseconds) specified by the parameter. There are a thousand microseconds in a millisecond and a million microseconds in a second.
 
 Currently, the largest value that will produce an accurate delay is 16383. This could change in future Arduino releases. For delays longer than a few thousand microseconds, you should use `delay()` instead.
@@ -24,17 +24,17 @@ Currently, the largest value that will produce an accurate delay is 16383. This 
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `delayMicroseconds(us)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `us`: the number of microseconds to pause. Allowed data types: `unsigned int`.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -48,7 +48,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The code configures pin number 8 to work as an output pin. It sends a train of pulses of approximately 100 microseconds period. The approximation is due to execution of the other instructions in the code.
 
@@ -70,7 +70,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 This function works very accurately in the range 3 microseconds and up. We cannot assure that delayMicroseconds will perform precisely for smaller delay-times.
 
 As of Arduino 0018, delayMicroseconds() no longer disables interrupts.
@@ -84,7 +84,7 @@ As of Arduino 0018, delayMicroseconds() no longer disables interrupts.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

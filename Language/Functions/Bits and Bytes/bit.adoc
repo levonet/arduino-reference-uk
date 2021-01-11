@@ -16,23 +16,23 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
+=== Опис
 Computes the value of the specified bit (bit 0 is 1, bit 1 is 2, bit 2 is 4, etc.).
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `bit(n)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `n`: the bit whose value to compute
 
 
 [float]
-=== Returns
+=== Повертає
 The value of the bit.
 
 --
@@ -44,7 +44,7 @@ The value of the bit.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

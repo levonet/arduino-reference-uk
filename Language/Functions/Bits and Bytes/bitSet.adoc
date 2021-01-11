@@ -16,24 +16,24 @@ subCategories: [ "Bits and Bytes" ]
 --
 
 [float]
-=== Description
+=== Опис
 Sets (writes a 1 to) a bit of a numeric variable.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `bitSet(x, n)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: the numeric variable whose bit to set. +
 `n`: which bit to set, starting at 0 for the least-significant (rightmost) bit.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -45,7 +45,7 @@ Nothing
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

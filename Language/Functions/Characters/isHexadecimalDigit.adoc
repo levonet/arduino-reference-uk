@@ -16,23 +16,23 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
+=== Опис
 Analyse if a char is an hexadecimal digit (A-F, 0-9). Returns true if thisChar contains an hexadecimal digit.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `isHexadecimalDigit(thisChar)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `thisChar`: variable. Allowed data types: `char`.
 
 
 [float]
-=== Returns
+=== Повертає
 `true`: if thisChar is an hexadecimal digit.
 
 --
@@ -45,7 +45,7 @@ Analyse if a char is an hexadecimal digit (A-F, 0-9). Returns true if thisChar c
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -66,7 +66,7 @@ else {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

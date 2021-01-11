@@ -17,26 +17,26 @@ subCategories: [ "StringObject Operator" ]
 --
 
 [float]
-=== Description
+=== Опис
 Combines, or concatenates two Strings into one new String. The second String is appended to the first, and the result is placed in a new String. Works the same as string.concat().
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString3 = myString1 + myString2`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString1`: a String variable. +
 `myString2`: a String variable. +
 `myString3`: a String variable.
 
 
 [float]
-=== Returns
+=== Повертає
 New String that is the combination of the original two Strings.
 
 --
@@ -53,7 +53,7 @@ New String that is the combination of the original two Strings.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

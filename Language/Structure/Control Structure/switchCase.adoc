@@ -16,7 +16,7 @@ subCategories: [ "Control Structure" ]
 --
 
 [float]
-=== Description
+=== Опис
 Like link:../if[if] statements, link:../switchcase[switch case] controls the flow of programs by allowing programmers to specify different code that should be executed in various conditions. In particular, a switch statement compares the value of a variable to the values specified in case statements. When a case statement is found whose value matches that of the variable, the code in that case statement is run.
 [%hardbreaks]
 
@@ -25,7 +25,7 @@ The link:../break[break] keyword exits the switch statement, and is typically us
 
 
 [float]
-=== Syntax
+=== Синтаксис
 [source,arduino]
 ----
 switch (var) {
@@ -43,13 +43,13 @@ switch (var) {
 
 
 [float]
-=== Parameters
+=== Параметри
 `var`: a variable whose value to compare with various cases. Allowed data types: `int`, `char`. +
 `label1`, `label2`: constants. Allowed data types: `int`, `char`.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -63,7 +63,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -94,7 +94,7 @@ switch (var) {
 --
 
 [float]
-=== See also
+=== Дивись також
 [role="language"]
 
 --

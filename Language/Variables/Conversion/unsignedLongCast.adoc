@@ -16,22 +16,22 @@ subCategories: [ "Conversion" ]
 --
 
 [float]
-=== Description
+=== Опис
 Converts a value to the `link:../../data-types/unsignedlong[unsigned long]` data type.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `(unsigned long)x`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: a value of any type
 
 [float]
-=== Returns
+=== Повертає
 link:../../data-types/unsignedlong[`unsigned long`]
 
 --
@@ -45,7 +45,7 @@ link:../../data-types/unsignedlong[`unsigned long`]
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../data-types/unsignedlong[unsigned long]

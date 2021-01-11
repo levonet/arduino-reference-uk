@@ -16,23 +16,23 @@ subCategories: [ "Digital I/O" ]
 --
 
 [float]
-=== Description
+=== Опис
 Reads the value from a specified digital pin, either `HIGH` or `LOW`.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `digitalRead(pin)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `pin`: the Arduino pin number you want to read
 
 
 [float]
-=== Returns
+=== Повертає
 `HIGH` or `LOW`
 
 --
@@ -46,7 +46,7 @@ Reads the value from a specified digital pin, either `HIGH` or `LOW`.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 Sets pin 13 to the same value as pin 7, declared as an input.
 
@@ -69,7 +69,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 If the pin isn't connected to anything, `digitalRead()` can return either `HIGH` or `LOW` (and this can change randomly).
 
 The analog input pins can be used as digital pins, referred to as A0, A1, etc. The exception is the Arduino Nano, Pro Mini, and Mini's A6 and A7 pins, which can only be used as analog inputs.
@@ -83,7 +83,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc. T
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Description of the digital pins^]

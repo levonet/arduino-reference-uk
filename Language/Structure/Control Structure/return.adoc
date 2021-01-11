@@ -16,19 +16,19 @@ subCategories: [ "Control Structure" ]
 --
 
 [float]
-=== Description
+=== Опис
 Terminate a function and return a value from a function to the calling function, if desired.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `return;` +
 `return value;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `value`: Allowed data types: any variable or constant type.
 
 --
@@ -42,7 +42,7 @@ Terminate a function and return a value from a function to the calling function,
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 A function to compare a sensor input to a threshold
 
 [source,arduino]
@@ -83,7 +83,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 [role="language"]
 
 --

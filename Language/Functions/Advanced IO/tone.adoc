@@ -16,7 +16,7 @@ subCategories: [ "Advanced I/O" ]
 --
 
 [float]
-=== Description
+=== Опис
 Generates a square wave of the specified frequency (and 50% duty cycle) on a pin. A duration can be specified, otherwise the wave continues until a call to link:../notone[noTone()]. The pin can be connected to a piezo buzzer or other speaker to play tones.
 
 Only one tone can be generated at a time. If a tone is already playing on a different pin, the call to `tone()` will have no effect. If the tone is playing on the same pin, the call will set its frequency.
@@ -28,20 +28,20 @@ It is not possible to generate tones lower than 31Hz. For technical details, see
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `tone(pin, frequency)` +
 `tone(pin, frequency, duration)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `pin`: the Arduino pin on which to generate the tone. +
 `frequency`: the frequency of the tone in hertz. Allowed data types: `unsigned int`. +
 `duration`: the duration of the tone in milliseconds (optional). Allowed data types: `unsigned long`.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -55,7 +55,7 @@ Nothing
 --
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 If you want to play different pitches on multiple pins, you need to call `noTone()` on one pin before calling `tone()` on the next pin.
 [%hardbreaks]
 
@@ -68,7 +68,7 @@ If you want to play different pitches on multiple pins, you need to call `noTone
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../analog-io/analogwrite[analogWrite()]

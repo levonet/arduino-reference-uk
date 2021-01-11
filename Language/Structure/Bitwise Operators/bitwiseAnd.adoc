@@ -17,7 +17,7 @@ subCategories: [ "Bitwise Operators" ]
 --
 
 [float]
-=== Description
+=== Опис
 The bitwise AND operator in C++ is a single ampersand `&`, used between two other integer expressions. Bitwise AND operates on each bit position of the surrounding expressions independently, according to this rule: if both input bits are 1, the resulting output is 1, otherwise the output is 0.
 [%hardbreaks]
 
@@ -42,7 +42,7 @@ In Arduino, the type int is a 16-bit value, so using & between two int expressio
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 In a code fragment like:
 
 [source,arduino]
@@ -70,7 +70,7 @@ PORTD = PORTD & 0b00000011;  // clear out bits 2 - 7, leave pins PD0 and PD1 unt
 --
 
 [float]
-=== See also
+=== Дивись також
 
 
 [role="language"]

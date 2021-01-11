@@ -16,24 +16,24 @@ subCategories: [ "StringObject Function" ]
 --
 
 [float]
-=== Description
+=== Опис
 Converts the contents of a String as a C-style, null-terminated string. Note that this gives direct access to the internal String buffer and should be used with care. In particular, you should never modify the string through the pointer returned. When you modify the String object, or when it is destroyed, any pointer previously returned by c_str() becomes invalid and should not be used any longer.
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString.c_str()`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString`: a variable of type `String`.
 
 
 [float]
-=== Returns
+=== Повертає
 A pointer to the C-style version of the invoking String.
 
 --
@@ -49,7 +49,7 @@ A pointer to the C-style version of the invoking String.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

@@ -17,7 +17,7 @@ subCategories: [ "Further Syntax" ]
 --
 
 [float]
-=== Description
+=== Опис
 Used to end a statement.
 [%hardbreaks]
 
@@ -32,7 +32,7 @@ Used to end a statement.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -41,7 +41,7 @@ int a = 13;
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 Forgetting to end a line in a semicolon will result in a compiler error. The error text may be obvious, and refer to a missing semicolon, or it may not. If an impenetrable or seemingly illogical compiler error comes up, one of the first things to check is a missing semicolon, in the immediate vicinity, preceding the line at which the compiler complained.
 [%hardbreaks]
 
@@ -56,7 +56,7 @@ Forgetting to end a line in a semicolon will result in a compiler error. The err
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

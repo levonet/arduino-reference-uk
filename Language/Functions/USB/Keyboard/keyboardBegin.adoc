@@ -13,23 +13,23 @@ title: Keyboard.begin()
 --
 
 [float]
-=== Description
+=== Опис
 When used with a Leonardo or Due board, `Keyboard.begin()` starts emulating a keyboard connected to a computer. To end control, use link:../keyboardend[Keyboard.end()].
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `Keyboard.begin()`
 
 
 [float]
-=== Parameters
+=== Параметри
 None
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -43,7 +43,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 

@@ -16,27 +16,27 @@ subCategories: [ "StringObject Function" ]
 --
 
 [float]
-=== Description
+=== Опис
 Modify in place a String removing chars from the provided index to the end of the String or from the provided index to index plus count.
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString.remove(index)` +
 `myString.remove(index, count)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString`: a variable of type `String`. +
 `index`: The position at which to start the remove process (zero indexed). Allowed data types: `unsigned int`. +
 `count`: The number of characters to remove. Allowed data types: `unsigned int`.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -48,7 +48,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 [source,arduino]
 ----
@@ -65,7 +65,7 @@ greeting.remove(2, 2);  // greeting now contains "heo"
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

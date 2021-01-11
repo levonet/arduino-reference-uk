@@ -16,25 +16,25 @@ subCategories: [ "StringObject Function" ]
 --
 
 [float]
-=== Description
+=== Опис
 Compares two Strings, testing whether one comes before or after the other, or whether they're equal. The strings are compared character by character, using the ASCII values of the characters. That means, for example, that 'a' comes before 'b' but after 'A'. Numbers come before letters.
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString.compareTo(myString2)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString`: a variable of type `String`. +
 `myString2`: another variable of type `String`.
 
 
 [float]
-=== Returns
+=== Повертає
 `a negative number`: if myString comes before myString2. +
 `0`: if String equals myString2. +
 `a positive number`: if myString comes after myString2.
@@ -53,7 +53,7 @@ Compares two Strings, testing whether one comes before or after the other, or wh
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

@@ -15,7 +15,7 @@ subCategories: [ "USB" ]
 --
 
 [float]
-=== Description
+=== Опис
 The keyboard functions enable 32u4 or SAMD micro based boards to send keystrokes to an attached computer through their micro's native USB port.
 [%hardbreaks]
 *Note: Not every possible ASCII character, particularly the non-printing ones, can be sent with the Keyboard library.* +
@@ -25,7 +25,7 @@ The library supports the use of modifier keys. Modifier keys change the behavior
 // OVERVIEW SECTION ENDS
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 These core libraries allow the 32u4 and SAMD based boards (Leonardo, Esplora, Zero, Due and MKR Family) to appear as a native Mouse and/or Keyboard to a connected computer.
 [%hardbreaks]
 *A word of caution on using the Mouse and Keyboard libraries*: if the Mouse or Keyboard library is constantly running, it will be difficult to program your board. Functions such as `Mouse.move()` and `Keyboard.print()` will move your cursor or send keystrokes to a connected computer and should only be called when you are ready to handle them. It is recommended to use a control system to turn this functionality on, like a physical switch or only responding to specific input you can control. Refer to the Mouse and Keyboard examples for some ways to handle this.
@@ -40,7 +40,7 @@ When using the Mouse or Keyboard library, it may be best to test your output fir
 '''
 
 [float]
-=== Functions
+=== Функції
 link:../keyboard/keyboardbegin[Keyboard.begin()] +
 link:../keyboard/keyboardend[Keyboard.end()] +
 link:../keyboard/keyboardpress[Keyboard.press()] +
@@ -61,7 +61,7 @@ link:../keyboard/keyboardwrite[Keyboard.write()]
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# http://www.arduino.cc/en/Tutorial/KeyboardAndMouseControl[KeyboardAndMouseControl^]: Demonstrates the Mouse and Keyboard commands in one program.

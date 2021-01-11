@@ -16,25 +16,25 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
+=== Опис
 Constrains a number to be within a range.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `constrain(x, a, b)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: the number to constrain Allowed data types: all data types. +
 `a`: the lower end of the range. Allowed data types: all data types. +
 `b`: the upper end of the range. Allowed data types: all data types.
 
 
 [float]
-=== Returns
+=== Повертає
 x: if x is between a and b. +
 a: if x is less than a. +
 b: if x is greater than b.
@@ -50,7 +50,7 @@ b: if x is greater than b.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The code limits the sensor values to between 10 to 150.
 
@@ -60,7 +60,7 @@ sensVal = constrain(sensVal, 10, 150);  // limits range of sensor values to betw
 ----
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 Because of the way the `constrain()` function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results.
 
 This code will yield incorrect results:
@@ -86,7 +86,7 @@ int constrainedInput = constrain(input, minimumValue, maximumValue);
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

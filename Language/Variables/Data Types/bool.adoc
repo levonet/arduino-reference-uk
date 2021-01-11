@@ -11,7 +11,7 @@ subCategories: [ "Data Types" ]
 --
 
 [float]
-=== Description
+=== Опис
 A `bool` holds one of two values, `link:../../constants/constants[true]` or `link:../../constants/constants[false]`. (Each `bool` variable occupies one byte of memory.)
 
 
@@ -19,12 +19,12 @@ A `bool` holds one of two values, `link:../../constants/constants[true]` or `lin
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `bool var = val;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `var`: variable name. +
 `val`: the value to assign to that variable.
 
@@ -39,7 +39,7 @@ A `bool` holds one of two values, `link:../../constants/constants[true]` or `lin
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 This code shows how to use the `bool` datatype.
 
@@ -75,7 +75,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../../variables/constants/constants[constants]

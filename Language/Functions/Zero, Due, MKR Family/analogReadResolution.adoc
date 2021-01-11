@@ -15,7 +15,7 @@ subCategories: [ "Zero, Due & MKR Family" ]
 --
 
 [float]
-=== Description
+=== Опис
 analogReadResolution() is an extension of the Analog API for the Zero, Due, MKR family, Nano 33 (BLE and IoT) and Portenta.
 
 Sets the size (in bits) of the value returned by `analogRead()`. It defaults to 10 bits (returns values between 0-1023) for backward compatibility with AVR based boards.
@@ -26,17 +26,17 @@ The *Portenta H7* has a 16 bit ADC, which will allow values between 0 and 65535.
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `analogReadResolution(bits)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `bits`: determines the resolution (in bits) of the value returned by the `analogRead()` function. You can set this between 1 and 32. You can set resolutions higher than the supported 12 or 16 bits, but values returned by `analogRead()` will suffer approximation. See the note below for details.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -50,7 +50,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The code shows how to use ADC with different resolutions.
 
@@ -90,7 +90,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 If you set the `analogReadResolution()` value to a value higher than your board's capabilities, the Arduino will only report back at its highest resolution, padding the extra bits with zeros.
 
 For example: using the Due with `analogReadResolution(16)` will give you an approximated 16-bit number with the first 12 bits containing the real ADC reading and the last 4 bits *padded with zeros*.
@@ -108,7 +108,7 @@ Using a 16 bit resolution (or any resolution *higher* than actual hardware capab
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins^]

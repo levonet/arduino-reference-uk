@@ -16,24 +16,24 @@ subCategories: [ "Conversion" ]
 --
 
 [float]
-=== Description
+=== Опис
 Converts a value to the `link:../../data-types/long[long]` data type.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `long(x)` +
 `(long)x` (C-style type conversion)
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: a value. Allowed data types: any type.
 
 
 [float]
-=== Returns
+=== Повертає
 Data type: link:../../data-types/long[`long`].
 
 --
@@ -47,7 +47,7 @@ Data type: link:../../data-types/long[`long`].
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../data-types/long[long]

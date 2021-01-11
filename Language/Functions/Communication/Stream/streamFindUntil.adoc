@@ -13,7 +13,7 @@ title: Stream.findUntil()
 --
 
 [float]
-=== Description
+=== Опис
 `findUntil()` reads data from the stream until the target string of given length or terminator string is found, or it times out (see link:../streamsettimeout[Stream.setTimeout()]).
 
 The function returns `true` if target string is found, `false` if timed out.
@@ -23,19 +23,19 @@ This function is part of the Stream class, and can be called by any class that i
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `stream.findUntil(target, terminal)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `stream`: an instance of a class that inherits from Stream. +
 `target`: the string to search for. Allowed data types: `char`. +
 `terminal`: the terminal string in the search. Allowed data types: `char`.
 
 
 [float]
-=== Returns
+=== Повертає
 Data type: `bool`.
 
 --

@@ -13,7 +13,7 @@ subCategories: [ "Compound Operators" ]
 --
 
 [float]
-=== Description
+=== Опис
 The compound bitwise XOR operator `^=` is often used with a variable and a constant to toggle (invert) particular bits in a variable.
 [%hardbreaks]
 
@@ -26,12 +26,12 @@ A review of the Bitwise XOR `^` operator:
 [%hardbreaks]
 
 [float]
-=== Syntax
+=== Синтаксис
 `x ^= y; // equivalent to x = x ^ y;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: variable. Allowed data types: `char`, `int`, `long`. +
 `y`: variable or constant. Allowed data types: `char`, `int`, `long`.
 
@@ -45,7 +45,7 @@ A review of the Bitwise XOR `^` operator:
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 Bits that are "bitwise XORed" with 0 are left unchanged. So if myByte is a byte variable,
 [source,arduino]
 ----
@@ -60,7 +60,7 @@ myByte ^ 0b11111111 = ~myByte;
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 Because we are dealing with bits in a bitwise operator - it is convenient to use the binary formatter with constants. The numbers are still the same value in other representations, they are just not as easy to understand. Also, 0b00000000 is shown for clarity, but zero in any number format is zero.
 [%hardbreaks]
 
@@ -103,7 +103,7 @@ myByte ^= 0b00000011 == 0b10101001;
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE#  link:../../bitwise-operators/bitwisexor[^ Bitwise XOR]

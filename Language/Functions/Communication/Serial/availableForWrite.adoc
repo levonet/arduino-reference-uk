@@ -13,23 +13,23 @@ title: Serial.availableForWrite()
 --
 
 [float]
-=== Description
+=== Опис
 Get the number of bytes (characters) available for writing in the serial buffer without blocking the write operation.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `_Serial_.availableForWrite()`
 
 
 [float]
-=== Parameters
+=== Параметри
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page].
 
 
 [float]
-=== Returns
+=== Повертає
 The number of bytes available to write.
 
 --
@@ -41,7 +41,7 @@ The number of bytes available to write.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()] +

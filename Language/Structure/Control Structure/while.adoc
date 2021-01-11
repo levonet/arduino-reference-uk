@@ -16,12 +16,12 @@ subCategories: [ "Control Structure" ]
 --
 
 [float]
-=== Description
+=== Опис
 [%hardbreaks]
 A `while` loop will loop continuously, and infinitely, until the expression inside the parenthesis, () becomes false. Something must change the tested variable, or the while loop will never exit. This could be in your code, such as an incremented variable, or an external condition, such as testing a sensor.
 
 [float]
-=== Syntax
+=== Синтаксис
 [source,arduino]
 ----
 while (condition) {
@@ -31,7 +31,7 @@ while (condition) {
 
 
 [float]
-=== Parameters
+=== Параметри
 `condition`: a boolean expression that evaluates to `true` or `false`.
 
 --
@@ -45,7 +45,7 @@ while (condition) {
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -66,7 +66,7 @@ while (var < 200) {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

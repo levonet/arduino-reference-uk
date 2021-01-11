@@ -16,23 +16,23 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
+=== Опис
 Calculates the absolute value of a number.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `abs(x)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: the number
 
 
 [float]
-=== Returns
+=== Повертає
 `x`: if x is greater than or equal to 0. +
 `-x`: if x is less than 0.
 
@@ -48,7 +48,7 @@ Calculates the absolute value of a number.
 
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 Because of the way the abs() function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results.
 [source,arduino]
 ----
@@ -70,7 +70,7 @@ a++;  // keep other math outside the function
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

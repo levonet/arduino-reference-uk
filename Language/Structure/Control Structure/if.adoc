@@ -15,12 +15,12 @@ subCategories: [ "Control Structure" ]
 [#overview]
 --
 [float]
-=== Description
+=== Опис
 The `if` statement checks for a condition and executes the following statement or set of statements if the condition is 'true'.
 [%hardbreaks]
 
 [float]
-=== Syntax
+=== Синтаксис
 [source,arduino]
 ----
 if (condition) {
@@ -30,7 +30,7 @@ if (condition) {
 
 
 [float]
-=== Parameters
+=== Параметри
 `condition`: a boolean expression (i.e., can be `true` or `false`).
 
 --
@@ -44,7 +44,7 @@ if (condition) {
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 The brackets may be omitted after an if statement. If this is done, the next line (defined by the semicolon) becomes the only conditional statement.
 [%hardbreaks]
@@ -68,7 +68,7 @@ if (x > 120) {
 
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 The statements being evaluated inside the parentheses require the use of one or more operators shown below.
 [%hardbreaks]
 
@@ -98,7 +98,7 @@ This is because C++ evaluates the statement `if (x=10)` as follows: 10 is assign
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

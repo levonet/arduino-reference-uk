@@ -16,23 +16,23 @@ subCategories: [ "Trigonometry" ]
 --
 
 [float]
-=== Description
+=== Опис
 Calculates the tangent of an angle (in radians). The result will be between negative infinity and infinity.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `tan(rad)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `rad`: The angle in radians. Allowed data types: `float`.
 
 
 [float]
-=== Returns
+=== Повертає
 The tangent of the angle. Data type: `double`.
 
 --
@@ -44,7 +44,7 @@ The tangent of the angle. Data type: `double`.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../../variables/data-types/float[float]

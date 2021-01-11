@@ -17,18 +17,18 @@ subCategories: [ "Comparison Operators" ]
 --
 
 [float]
-=== Description
+=== Опис
 Compares the variable on the left with the value or variable on the right of the operator. Returns true when the two operands are not equal. Please note that you may compare variables of different data types, but that could generate unpredictable results, it is therefore recommended to compare variables of the same data type including the signed/unsigned type.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `x != y; // is false if x is equal to y and it is true if x is not equal to y`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
 `y`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
 
@@ -42,7 +42,7 @@ Compares the variable on the left with the value or variable on the right of the
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -64,7 +64,7 @@ if (x != y) { // tests if x is not equal to y
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

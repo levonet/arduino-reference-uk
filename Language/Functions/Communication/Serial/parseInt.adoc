@@ -13,7 +13,7 @@ title: Serial.parseInt()
 --
 
 [float]
-=== Description
+=== Опис
 Looks for the next valid integer in the incoming serial. The function terminates if it times out (see link:../settimeout[Serial.setTimeout()]).
 
 `Serial.parseInt()` inherits from the link:../../stream[Stream] utility class.
@@ -27,14 +27,14 @@ In particular:
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `_Serial_.parseInt()` +
 `_Serial_.parseInt(lookahead)` +
 `_Serial_.parseInt(lookahead, ignore)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
 `lookahead`: the mode used to look ahead in the stream for an integer. Allowed data types: `LookaheadMode`. Allowed `lookahead` values:
 
@@ -46,7 +46,7 @@ In particular:
 
 
 [float]
-=== Returns
+=== Повертає
 The next valid integer. Data type: `long`.
 
 --
@@ -58,7 +58,7 @@ The next valid integer. Data type: `long`.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../begin[begin()] +

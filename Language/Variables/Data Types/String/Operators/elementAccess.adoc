@@ -17,26 +17,26 @@ subCategories: [ "StringObject Operator" ]
 --
 
 [float]
-=== Description
+=== Опис
 Allows you access to the individual characters of a String.
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `char thisChar = myString1[n]`
 
 
 [float]
-=== Parameters
+=== Параметри
 `thisChar`: Allowed data types: char. +
 `myString1`: Allowed data types: String. +
 `n`: a numeric variable.
 
 
 [float]
-=== Returns
+=== Повертає
 The nth char of the String. Same as charAt().
 
 --
@@ -53,7 +53,7 @@ The nth char of the String. Same as charAt().
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

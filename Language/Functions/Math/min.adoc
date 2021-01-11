@@ -16,24 +16,24 @@ subCategories: [ "Math" ]
 --
 
 [float]
-=== Description
+=== Опис
 Calculates the minimum of two numbers.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `min(x, y)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: the first number. Allowed data types: any data type. +
 `y`: the second number. Allowed data types: any data type.
 
 
 [float]
-=== Returns
+=== Повертає
 The smaller of the two numbers.
 
 --
@@ -47,7 +47,7 @@ The smaller of the two numbers.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The code ensures that it never gets above 100.
 
@@ -59,7 +59,7 @@ sensVal = min(sensVal, 100);  // assigns sensVal to the smaller of sensVal or 10
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 Perhaps counter-intuitively, `max()` is often used to constrain the lower end of a variable's range, while `min()` is used to constrain the upper end of the range.
 
 Because of the way the `min()` function is implemented, avoid using other functions inside the brackets, it may lead to incorrect results
@@ -80,7 +80,7 @@ a++;  // use this instead - keep other math outside the function
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

@@ -17,18 +17,18 @@ subCategories: [ "Bitwise Operators" ]
 --
 
 [float]
-=== Description
+=== Опис
 The right shift operator `>>` causes the bits of the left operand to be shifted *right* by the number of positions specified by the right operand.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `variable >> number_of_bits;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `variable`: Allowed data types: `byte`, `int`, `long`. +
 `number_of_bits`: a number that is < = 32. Allowed data types: `int`.
 
@@ -42,7 +42,7 @@ The right shift operator `>>` causes the bits of the left operand to be shifted 
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -52,7 +52,7 @@ int b = a >> 3; // binary: 0000000000000101, or 5 in decimal
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 When you shift x right by y bits (x >> y), and the highest bit in x is a 1, the behavior depends on the exact data type of x. If x is of type int, the highest bit is the sign bit, determining whether x is negative or not, as we have discussed above. In that case, the sign bit is copied into lower bits, for esoteric historical reasons:
 
 [source,arduino]
@@ -86,7 +86,7 @@ int y = x >> 3; // integer division of 1000 by 8, causing y = 125.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 

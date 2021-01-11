@@ -13,23 +13,23 @@ title: Keyboard.releaseAll()
 --
 
 [float]
-=== Description
+=== Опис
 Lets go of all keys currently pressed. See link:../keyboardpress[Keyboard.press()] for additional information.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `Keyboard.releaseAll()`
 
 
 [float]
-=== Parameters
+=== Параметри
 None
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -42,7 +42,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 

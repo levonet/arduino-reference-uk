@@ -16,23 +16,23 @@ subCategories: [ "Trigonometry" ]
 --
 
 [float]
-=== Description
+=== Опис
 Calculates the cosine of an angle (in radians). The result will be between -1 and 1.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `cos(rad)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `rad`: The angle in radians. Allowed data types: `float`.
 
 
 [float]
-=== Returns
+=== Повертає
 The cos of the angle. Data type: `double`.
 
 --
@@ -44,7 +44,7 @@ The cos of the angle. Data type: `double`.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../../variables/data-types/float[float]

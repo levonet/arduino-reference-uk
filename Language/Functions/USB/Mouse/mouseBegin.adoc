@@ -14,23 +14,23 @@ title: Mouse.begin()
 --
 
 [float]
-=== Description
+=== Опис
 Begins emulating the mouse connected to a computer. `begin()` must be called before controlling the computer. To end control, use link:../mouseend[Mouse.end()].
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `Mouse.begin()`
 
 
 [float]
-=== Parameters
+=== Параметри
 None
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -44,7 +44,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
@@ -73,7 +73,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../mouseclick[Mouse.click()]

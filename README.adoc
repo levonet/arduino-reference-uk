@@ -1,16 +1,15 @@
 = Reference-uk
 
-Reference-uk це репозіторій який містить довідникову документацію по синтаксису Arduino **українською** мовою.  
+Reference-uk це репозіторій який містить Довідник мови з документацію синтаксису Arduino **українською** мовою.
 Усі файли довідників в форматі AsciiDoc.
 
-Дякуємо що знайшли час 
-Дякуємо, що знайшли час щоб внести свій внесок у Arduino, це дійсно корисно для всієї спільноти Arduino.
-Якщо ви хочете дізнатись більше про те, як зробити свій внесок у цей проект, перегляньте цей
+Дякуємо, що знайшли час щоб зробити свій внесок у Arduino, це дійсно корисно для всієї спільноти Arduino.
+Якщо ви хочете дізнатись більше про те, як зробити внесок у цей проект, перегляньте цей
 https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[покроковий посібник].
 
 == Створення та редагування вмісту
-Якщо ви хочете додати новий вміст, створіть новий файл (в будь-якому редакторі тексту або коду) і збережіть його як .adoc.  
-Не використовуйте дужки або будь-які спеціальні символи в назві файлу.  
+Якщо ви хочете додати новий вміст, створіть новий файл (в будь-якому редакторі тексту або коду) і збережіть його як .adoc.
+Не використовуйте дужки або будь-які спеціальні символи в назві файлу.
 Ознайомтесь з описом синтаксису AsciiDoc https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/AsciiDoc_Dictionary/AsciiDoc_Template-Dictionary.adoc[`reference-en/AsciiDoc_sample/AsciiDoc_Dictionary`]. Він містить опис заголовків, тексту, посилань, зображень, таблиць, коду та різних вставок (відео, слайд-шоу, аудіо та код). Ви можете переглянути опис синтаксису https://www.arduino.cc/reference/en/asciidoc_sample/asciidoc_dictionary/asciidoc_template-dictionary/[тут].
 
 Якщо ви хочете внести свій внесок у Довідник мови або відредагувати наявний вміст, ви можете знайти два шаблони в reference-en/AsciiDoc_sample/Reference_Terms:
@@ -18,25 +17,25 @@ https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-r
 * Використовуй https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Single_Entity.adoc[`AsciiDoc_Template-Single_Entity.adoc`] (на сайті https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-single_entity/[тут]) для таких термінів, як link:http://arduino.cc/en/Reference/AnalogWrite[analogWrite].
 * Використовуй https://raw.githubusercontent.com/arduino/reference-en/master/AsciiDoc_sample/Reference_Terms/AsciiDoc_Template-Parent_Of_Entities.adoc[`AsciiDoc_Template-Parent_Of_Entities.adoc`] (на сайті https://www.arduino.cc/reference/en/asciidoc_sample/reference_terms/asciidoc_template-parent_of_entities/[тут]) для груп функцій, наприклад як link:http://arduino.cc/en/Reference/Serial[Serial].
 
-Зверни увагу, що кожен довідковий файл повинен містити опис, приклади коду та посилання на іншу відповідну інформацію (див. розділ Також). 
+Зверни увагу, що кожен довідковий файл повинен містити опис, приклади коду та посилання на іншу відповідну інформацію (див. розділ Також).
 
 Якщо потрібно додати зображення до Asciidoc, створіть каталог з назвою attachments у тому ж каталозі, що і файл Asciidoc. Зображення можна зберігати у форматі SVG та PNG, з розміром до 200 Кб.
 
 == Додайте вміст на Github
 Якщо не знайомі з Git, то можна додавати вміст безпосередньо на Github через онлайн-інтерфейс. Ми підготували короткий посібник, щоб показати, як це https://create.arduino.cc/projecthub/Arduino_Genuino/contribute-to-the-arduino-reference-af7c37[зробити!]
 
-link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[Ви також можете слідувати цьому посібнику] (написаному командою Github), щоб дізнатися, як редагувати файл .adoc та запропонувати зміни команді Arduino.  
+link:https://help.github.com/articles/editing-files-in-another-user-s-repository/[Ви також можете слідувати цьому посібнику] (написаному командою Github), щоб дізнатися, як редагувати файл .adoc та запропонувати зміни команді Arduino.
 Пропонуючи зміни, будь ласка, дотримуйтесь інструкцій, описаних у файлах з шаблонами довідників.
 
 == Пропозиція змін (Pull Request)
 Ми раді, що ви хочете зробити свій внесок у довідник Arduino: це найкращий спосіб допомогти спільноті.
 
-Ваш внесок - це додавання або модифікація існуючого коду або повних описів, будь ласка, завжди посилайтеся на існуючий issue або відкрийте новий перед тим, як запропонувати зміни.
+Ваш внесок — це додавання або модифікація існуючого коду або повних описів, будь ласка, завжди посилайтеся на існуючий issue або відкрийте новий перед тим, як запропонувати зміни.
 
 === Структура каталогу
 [source]
 ----
-reference-en
+reference-uk
 ├─ AsciiDoc_sample
 │   ├── AsciiDoc_Dictionary
 │   │   ├── AsciiDoc_Template-Dictionary.adoc
@@ -54,7 +53,7 @@ reference-en
 
 ----
 
-У папці Language дерево файлів має ту саму структуру, що і на link:https://www.arduino.cc/reference/en[веб-сторінці довідника Arduino].
+У каталозі Language дерево файлів має ту саму структуру, що і на link:https://www.arduino.cc/reference/en[веб-сторінці довідника Arduino].
 
 === License
 

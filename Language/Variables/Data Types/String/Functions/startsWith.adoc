@@ -16,24 +16,24 @@ subCategories: [ "StringObject Function" ]
 --
 
 [float]
-=== Description
+=== Опис
 Tests whether or not a String starts with the characters of another String.
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString.startsWith(myString2)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString, myString2`: a variable of type `String`.
 
 
 [float]
-=== Returns
+=== Повертає
 `true`: if myString starts with the characters of myString2. +
 `false`: otherwise
 
@@ -50,7 +50,7 @@ Tests whether or not a String starts with the characters of another String.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

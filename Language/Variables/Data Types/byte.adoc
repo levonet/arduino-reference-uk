@@ -11,18 +11,18 @@ subCategories: [ "Data Types" ]
 --
 
 [float]
-=== Description
+=== Опис
 A byte stores an 8-bit unsigned number, from 0 to 255.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `byte var = val;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `var`: variable name. +
 `val`: the value to assign to that variable.
 
@@ -44,7 +44,7 @@ A byte stores an 8-bit unsigned number, from 0 to 255.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../conversion/bytecast[byte()]

@@ -11,7 +11,7 @@ subCategories: [ "Analog I/O" ]
 --
 
 [float]
-=== Description
+=== Опис
 Reads the value from the specified analog pin. Arduino boards contain a multichannel, 10-bit analog to digital converter. This means that it will map input voltages between 0 and the operating voltage(5V or 3.3V) into integer values between 0 and 1023. On an Arduino UNO, for example, this yields a resolution between readings of: 5 volts / 1024 units or, 0.0049 volts (4.9 mV) per unit. See the table below for the usable pins, operating voltage and maximum resolution for some Arduino boards.
 
 The input range can be changed using link:../analogreference[analogReference()], while the resolution can be changed (only for Zero, Due and MKR boards) using link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()].
@@ -37,17 +37,17 @@ On ATmega based boards (UNO, Nano, Mini, Mega), it takes about 100 microseconds 
 [%hardbreaks]
 
 [float]
-=== Syntax
+=== Синтаксис
 `analogRead(pin)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `pin`: the name of the analog input pin to read from (A0 to A5 on most boards, A0 to A6 on MKR boards, A0 to A7 on the Mini and Nano, A0 to A15 on the Mega).
 
 
 [float]
-=== Returns
+=== Повертає
 The analog reading on the pin. Although it is limited to the resolution of the analog to digital converter (0-1023 for 10 bits or 0-4095 for 12 bits). Data type: `int`.
 
 --
@@ -59,7 +59,7 @@ The analog reading on the pin. Although it is limited to the resolution of the a
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 The code reads the voltage on analogPin and displays it.
 
@@ -81,7 +81,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 If the analog input pin is not connected to anything, the value returned by `analogRead()` will fluctuate based on a number of factors (e.g. the values of the other analog inputs, how close your hand is to the board, etc.).
 
 --
@@ -93,7 +93,7 @@ If the analog input pin is not connected to anything, the value returned by `ana
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()]

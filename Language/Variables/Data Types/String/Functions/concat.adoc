@@ -16,25 +16,25 @@ subCategories: [ "StringObject Function" ]
 --
 
 [float]
-=== Description
+=== Опис
 Appends the parameter to a String.
 
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `myString.concat(parameter)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `myString`: a variable of type `String`. +
 `parameter`: Allowed data types: `String`, `string`, `char`, `byte`, `int`, `unsigned int`, `long`, `unsigned long`, `float`, `double`, `__FlashStringHelper`(`F()` macro).
 
 
 [float]
-=== Returns
+=== Повертає
 `true`: success. +
 `false`: failure (in which case the String is left unchanged).
 
@@ -51,7 +51,7 @@ Appends the parameter to a String.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# https://www.arduino.cc/en/Tutorial/BuiltInExamples#strings[String Tutorials^]

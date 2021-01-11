@@ -16,23 +16,23 @@ subCategories: [ "Characters" ]
 --
 
 [float]
-=== Description
+=== Опис
 Analyse if a char is a white-space character. Returns true if the argument is a space, form feed (`'\f'`), newline (`'\n'`), carriage return (`'\r'`), horizontal tab (`'\t'`), or vertical tab (`'\v'`).
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `isSpace(thisChar)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `thisChar`: variable. Allowed data types: `char`.
 
 
 [float]
-=== Returns
+=== Повертає
 `true`: if thisChar is a white-space character.
 
 --
@@ -45,7 +45,7 @@ Analyse if a char is a white-space character. Returns true if the argument is a 
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -66,7 +66,7 @@ else {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]

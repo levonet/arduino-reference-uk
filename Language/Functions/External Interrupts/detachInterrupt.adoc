@@ -16,26 +16,26 @@ subCategories: [ "External Interrupts" ]
 --
 
 [float]
-=== Description
+=== Опис
 Turns off the given interrupt.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `detachInterrupt(digitalPinToInterrupt(pin))` (recommended) +
 `detachInterrupt(interrupt)` (not recommended) +
 `detachInterrupt(pin)` (Not recommended. Additionally, this syntax only works on Arduino SAMD Boards, Uno WiFi Rev2, Due, and 101.)
 
 
 [float]
-=== Parameters
+=== Параметри
 `interrupt`: the number of the interrupt to disable (see link:../attachinterrupt[attachInterrupt()] for more details). +
 `pin`: the Arduino pin number of the interrupt to disable
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -47,7 +47,7 @@ Nothing
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

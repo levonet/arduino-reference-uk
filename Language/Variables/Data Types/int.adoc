@@ -12,7 +12,7 @@ subCategories: [ "Data Types" ]
 --
 
 [float]
-=== Description
+=== Опис
 Integers are your primary data-type for number storage.
 
 On the Arduino Uno (and other ATmega based boards) an int stores a 16-bit (2-byte) value. This yields a range of -32,768 to 32,767 (minimum value of -2^15 and a maximum value of (2^15) - 1).
@@ -25,12 +25,12 @@ The Arduino takes care of dealing with negative numbers for you, so that arithme
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `int var = val;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `var`: variable name. +
 `val`: the value you assign to that variable.
 
@@ -45,7 +45,7 @@ The Arduino takes care of dealing with negative numbers for you, so that arithme
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 This code creates an integer called 'countUp', which is initially set as the number 0 (zero). The variable goes up by 1 (one) each loop, being displayed on the serial monitor.
 
@@ -66,7 +66,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 When signed variables are made to exceed their maximum or minimum capacity they _overflow_. The result of an overflow is unpredictable so this should be avoided. A typical symptom of an overflow is the variable "rolling over" from its maximum capacity to its minimum or vice versa, but this is not always the case. If you want this behavior, use `link:../unsignedint[unsigned int]`.
 
 
@@ -79,7 +79,7 @@ When signed variables are made to exceed their maximum or minimum capacity they 
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../constants/integerconstants[Integer Constants]

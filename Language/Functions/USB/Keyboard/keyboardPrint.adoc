@@ -13,7 +13,7 @@ title: Keyboard.print()
 --
 
 [float]
-=== Description
+=== Опис
 Sends a keystroke to a connected computer.
 
 `Keyboard.print()` must be called after initiating link:../keyboardbegin[Keyboard.begin()].
@@ -21,19 +21,19 @@ Sends a keystroke to a connected computer.
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `Keyboard.print(character)` +
 `Keyboard.print(characters)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `character`: a char or int to be sent to the computer as a keystroke. +
 `characters`: a string to be sent to the computer as a keystroke.
 
 
 [float]
-=== Returns
+=== Повертає
 Number of bytes sent. Data type: `size_t`.
 
 --
@@ -47,7 +47,7 @@ Number of bytes sent. Data type: `size_t`.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
@@ -74,7 +74,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 When you use the `Keyboard.print()` command, the Arduino takes over your keyboard! Make sure you have control before you use the command. A pushbutton to toggle the keyboard control state is effective.
 
 --

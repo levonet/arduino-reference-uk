@@ -17,22 +17,22 @@ Calculates the square root of a number.
 --
 
 [float]
-=== Description
+=== Опис
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `sqrt(x)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: the number. Allowed data types: any data type.
 
 
 [float]
-=== Returns
+=== Повертає
 The number's square root. Data type: `double`.
 
 --
@@ -44,7 +44,7 @@ The number's square root. Data type: `double`.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

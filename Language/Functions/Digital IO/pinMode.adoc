@@ -16,7 +16,7 @@ subCategories: [ "Digital I/O" ]
 --
 
 [float]
-=== Description
+=== Опис
 Configures the specified pin to behave either as an input or an output. See the http://arduino.cc/en/Tutorial/DigitalPins[Digital Pins] page for details on the functionality of the pins.
 [%hardbreaks]
 As of Arduino 1.0.1, it is possible to enable the internal pullup resistors with the mode `INPUT_PULLUP`. Additionally, the `INPUT` mode explicitly disables the internal pullups.
@@ -24,18 +24,18 @@ As of Arduino 1.0.1, it is possible to enable the internal pullup resistors with
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `pinMode(pin, mode)`
 
 
 [float]
-=== Parameters
+=== Параметри
 `pin`: the Arduino pin number to set the mode of. +
 `mode`: `INPUT`, `OUTPUT`, or `INPUT_PULLUP`. See the http://arduino.cc/en/Tutorial/DigitalPins[Digital Pins] page for a more complete description of the functionality.
 
 
 [float]
-=== Returns
+=== Повертає
 Nothing
 
 --
@@ -49,7 +49,7 @@ Nothing
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 The code makes the digital pin 13 `OUTPUT` and Toggles it `HIGH` and `LOW`
 
 [source,arduino]
@@ -68,7 +68,7 @@ void loop() {
 [%hardbreaks]
 
 [float]
-=== Notes and Warnings
+=== Примітки та попередження
 The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 
 --
@@ -80,7 +80,7 @@ The analog input pins can be used as digital pins, referred to as A0, A1, etc.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/DigitalPins[Description of the digital pins^]

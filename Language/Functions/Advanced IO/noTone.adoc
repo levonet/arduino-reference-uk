@@ -15,23 +15,25 @@ aliases: [ /language/functions/advanced-io/noTone/ ]
 --
 
 [float]
-=== Description
+=== Опис
 Stops the generation of a square wave triggered by `tone()`. Has no effect if no tone is being generated.
+Зупиняє генерацію https://uk.wikipedia.org/wiki/Меандр_(радіотехніка)[прямокутного сигналу], викликаного функцією `tone()`.
+Якщо звуковий сигнал не генерується, то не має ефекту.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `noTone(pin)`
 
 
 [float]
-=== Parameters
-`pin`: the Arduino pin on which to stop generating the tone
+=== Параметри
+`pin`: контакт Arduino, на якому слід припинити генерувати звуковий сигнал
 
 [float]
-=== Returns
-Nothing
+=== Повертає
+Нічого
 
 --
 // OVERVIEW SECTION ENDS
@@ -44,8 +46,8 @@ Nothing
 --
 
 [float]
-=== Notes and Warnings
-If you want to play different pitches on multiple pins, you need to call `noTone()` on one pin before calling `tone()` on the next pin.
+=== Примітки та попередження
+Якщо необхідно відтворити різні звуки на декількох контакт, потрібно викликати `noTone()` на поточному контакті, перш ніж викликати `tone()` на наступному контакті.
 [%hardbreaks]
 
 --
@@ -57,7 +59,7 @@ If you want to play different pitches on multiple pins, you need to call `noTone
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

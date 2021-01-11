@@ -13,7 +13,7 @@ title: Serial.getTimeout()
 --
 
 [float]
-=== Description
+=== Опис
 `Serial.getTimeout()` returns the timeout value set by `Serial.setTimeout()`.
 
 `Serial.getTimeout()` inherits from the link:../../stream[Stream] utility class.
@@ -21,17 +21,17 @@ title: Serial.getTimeout()
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `_Serial_.getTimeout()`
 
 
 [float]
-=== Parameters
+=== Параметри
 None
 
 
 [float]
-=== Returns
+=== Повертає
 The timeout value set by `Serial.setTimeout()`. Data type: `unsigned long`.
 
 --
@@ -51,7 +51,7 @@ The timeout value set by `Serial.setTimeout()`. Data type: `unsigned long`.
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../stream[stream]

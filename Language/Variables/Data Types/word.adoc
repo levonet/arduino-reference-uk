@@ -11,18 +11,18 @@ subCategories: [ "Data Types" ]
 --
 
 [float]
-=== Description
+=== Опис
 A word can store an unsigned number of at least 16 bits (from 0 to 65535).
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `word var = val;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `var`: variable name. +
 `val`: the value to assign to that variable.
 
@@ -37,7 +37,7 @@ A word can store an unsigned number of at least 16 bits (from 0 to 65535).
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
@@ -55,7 +55,7 @@ word w = 10000;
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

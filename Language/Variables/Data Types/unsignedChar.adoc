@@ -11,7 +11,7 @@ subCategories: [ "Data Types" ]
 --
 
 [float]
-=== Description
+=== Опис
 An unsigned data type that occupies 1 byte of memory. Same as the `link:../byte[byte]` datatype.
 
 The unsigned char datatype encodes numbers from 0 to 255.
@@ -21,12 +21,12 @@ For consistency of Arduino programming style, the link:../byte[`byte`] data type
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `unsigned char var = val;`
 
 
 [float]
-=== Parameters
+=== Параметри
 `var`: variable name. +
 `val`: the value to assign to that variable.
 
@@ -41,7 +41,7 @@ For consistency of Arduino programming style, the link:../byte[`byte`] data type
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
 
 
@@ -59,7 +59,7 @@ unsigned char myChar = 240;
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 * #LANGUAGE# link:../../../functions/communication/serial/println[Serial.println]

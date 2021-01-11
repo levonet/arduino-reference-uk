@@ -16,7 +16,7 @@ subCategories: [ "Sketch" ]
 --
 
 [float]
-=== Description
+=== Опис
 After creating a `link:../setup[setup()]` function, which initializes and sets the initial values, the `loop()` function does precisely what its name suggests, and loops consecutively, allowing your program to change and respond. Use it to actively control the Arduino board.
 [%hardbreaks]
 
@@ -29,7 +29,7 @@ After creating a `link:../setup[setup()]` function, which initializes and sets t
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 [source,arduino]
 ----
 int buttonPin = 3;
@@ -63,7 +63,7 @@ void loop() {
 --
 
 [float]
-=== See also
+=== Дивись також
 
 --
 // SEE ALSO SECTION ENDS

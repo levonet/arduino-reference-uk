@@ -17,23 +17,23 @@ subCategories: [ "Compound Operators" ]
 --
 
 [float]
-=== Description
+=== Опис
 Increments the value of a variable by 1.
 [%hardbreaks]
 
 
 [float]
-=== Syntax
+=== Синтаксис
 `x{plus}{plus};  // increment x by one and returns the old value of x` +
 `{plus}{plus}x;  // increment x by one and returns the new value of x`
 
 
 [float]
-=== Parameters
+=== Параметри
 `x`: variable. Allowed data types: `int`, `long` (possibly unsigned).
 
 [float]
-=== Returns
+=== Повертає
 The original or newly incremented value of the variable.
 
 --
@@ -46,7 +46,7 @@ The original or newly incremented value of the variable.
 --
 
 [float]
-=== Example Code
+=== Приклад коду
 
 [source,arduino]
 ----
@@ -64,7 +64,7 @@ y = x++;  // x contains 4, but y still contains 3
 --
 
 [float]
-=== See also
+=== Дивись також
 
 [role="language"]
 
