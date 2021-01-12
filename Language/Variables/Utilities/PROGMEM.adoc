@@ -43,7 +43,7 @@ Note that because PROGMEM is a variable modifier, there is no hard and fast rule
 
 [float]
 === Параметри
-`dataType`: Allowed data types: any variable type. +
+`dataType`: Очікує тип даних: any variable type. +
 `variableName`: the name for your array of data.
 
 --

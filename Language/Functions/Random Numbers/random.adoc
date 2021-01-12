@@ -29,13 +29,13 @@ The random function generates pseudo-random numbers.
 
 [float]
 === Параметри
-`min`: lower bound of the random value, inclusive (optional). +
+`min` (необов’язковий): lower bound of the random value, inclusive. +
 `max`: upper bound of the random value, exclusive.
 
 
 [float]
 === Повертає
-A random number between min and max-1. Data type: `long`.
+A random number between min and max-1. Тип даних: `long`.
 
 --
 // OVERVIEW SECTION ENDS

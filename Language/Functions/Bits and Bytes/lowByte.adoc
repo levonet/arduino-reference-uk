@@ -33,7 +33,7 @@ Extracts the low-order (rightmost) byte of a variable (e.g. a word).
 
 [float]
 === Повертає
-Data type: `byte`.
+Тип даних: `byte`.
 
 --
 // OVERVIEW SECTION ENDS

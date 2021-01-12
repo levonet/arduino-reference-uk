@@ -27,7 +27,7 @@ Analyse if a char is printable with some content (space is printable but has no 
 
 [float]
 === Параметри
-`thisChar`: variable. Allowed data types: `char`.
+`thisChar`: variable. Очікує тип даних: `char`.
 
 
 [float]

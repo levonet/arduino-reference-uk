@@ -28,7 +28,7 @@ Analyse if a char is punctuation (that is a comma, a semicolon, an exclamation m
 
 [float]
 === Параметри
-`thisChar`: variable. Allowed data types: `char`.
+`thisChar`: variable. Очікує тип даних: `char`.
 
 
 [float]

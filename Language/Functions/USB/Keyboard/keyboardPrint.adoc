@@ -34,7 +34,7 @@ Sends a keystroke to a connected computer.
 
 [float]
 === Повертає
-Number of bytes sent. Data type: `size_t`.
+Number of bytes sent. Тип даних: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

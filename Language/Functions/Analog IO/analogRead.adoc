@@ -48,7 +48,7 @@ On ATmega based boards (UNO, Nano, Mini, Mega), it takes about 100 microseconds 
 
 [float]
 === Повертає
-The analog reading on the pin. Although it is limited to the resolution of the analog to digital converter (0-1023 for 10 bits or 0-4095 for 12 bits). Data type: `int`.
+The analog reading on the pin. Although it is limited to the resolution of the analog to digital converter (0-1023 for 10 bits or 0-4095 for 12 bits). Тип даних: `int`.
 
 --
 // OVERVIEW SECTION ENDS

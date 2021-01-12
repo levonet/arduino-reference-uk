@@ -28,7 +28,7 @@ Analyse if a char is alpha (that is a letter). Returns true if thisChar contains
 
 [float]
 === Параметри
-`thisChar`: variable. Allowed data types: `char`.
+`thisChar`: variable. Очікує тип даних: `char`.
 
 
 [float]

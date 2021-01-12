@@ -31,8 +31,8 @@ Modify in place a String removing chars from the provided index to the end of th
 [float]
 === Параметри
 `myString`: a variable of type `String`. +
-`index`: The position at which to start the remove process (zero indexed). Allowed data types: `unsigned int`. +
-`count`: The number of characters to remove. Allowed data types: `unsigned int`.
+`index`: The position at which to start the remove process (zero indexed). Очікує тип даних: `unsigned int`. +
+`count`: The number of characters to remove. Очікує тип даних: `unsigned int`.
 
 
 [float]

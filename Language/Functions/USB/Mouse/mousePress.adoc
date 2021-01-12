@@ -30,7 +30,7 @@ Before using `Mouse.press()`, you need to start communication with link:../mouse
 
 [float]
 === Параметри
-`button`: which mouse button to press. Allowed data types: `char`.
+`button`: which mouse button to press. Очікує тип даних: `char`.
 
 * `MOUSE_LEFT (default)`
 * `MOUSE_RIGHT`

@@ -28,7 +28,7 @@ Pauses the program for the amount of time (in milliseconds) specified as paramet
 
 [float]
 === Параметри
-`ms`: the number of milliseconds to pause. Allowed data types: `unsigned long`.
+`ms`: the number of milliseconds to pause. Очікує тип даних: `unsigned long`.
 
 
 [float]

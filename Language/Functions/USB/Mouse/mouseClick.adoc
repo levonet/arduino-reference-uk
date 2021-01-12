@@ -28,7 +28,7 @@ Sends a momentary click to the computer at the location of the cursor. This is t
 
 [float]
 === Параметри
-`button`: which mouse button to press. Allowed data types: `char`.
+`button`: which mouse button to press. Очікує тип даних: `char`.
 
 * `MOUSE_LEFT` (default)
 * `MOUSE_RIGHT`

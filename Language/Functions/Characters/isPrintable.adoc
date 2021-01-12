@@ -28,7 +28,7 @@ Analyse if a char is printable (that is any character that produces an output, e
 
 [float]
 === Параметри
-`thisChar`: variable. Allowed data types: `char`.
+`thisChar`: variable. Очікує тип даних: `char`.
 
 
 [float]

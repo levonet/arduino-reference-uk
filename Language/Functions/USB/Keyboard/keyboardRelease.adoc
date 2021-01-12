@@ -25,12 +25,12 @@ Lets go of the specified key. See link:../keyboardpress[Keyboard.press()] for mo
 
 [float]
 === Параметри
-`key`: the key to release. Allowed data types: `char`.
+`key`: the key to release. Очікує тип даних: `char`.
 
 
 [float]
 === Повертає
-The number of keys released. Data type: `size_t`.
+The number of keys released. Тип даних: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

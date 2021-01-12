@@ -34,7 +34,7 @@ Converts a valid String to an integer. The input String should start with an int
 
 [float]
 === Повертає
-If no valid conversion could be performed because the String doesn't start with a integer number, a zero is returned. Data type: `long`.
+If no valid conversion could be performed because the String doesn't start with a integer number, a zero is returned. Тип даних: `long`.
 
 --
 // OVERVIEW SECTION ENDS

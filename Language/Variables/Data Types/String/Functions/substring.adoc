@@ -32,7 +32,7 @@ Get a substring of a String. The starting index is inclusive (the corresponding 
 === Параметри
 `myString`: a variable of type `String`. +
 `from`: the index to start the substring at. +
-`to` (optional): the index to end the substring before.
+`to` (необов’язковий): the index to end the substring before.
 
 
 [float]

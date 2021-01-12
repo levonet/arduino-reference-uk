@@ -29,12 +29,12 @@ Converts a value to the `link:../../data-types/float[float]` data type.
 
 [float]
 === Параметри
-`x`: a value. Allowed data types: any type.
+`x`: a value. Очікує тип даних: any type.
 
 
 [float]
 === Повертає
-Data type: link:../../data-types/float[`float`].
+Тип даних: link:../../data-types/float[`float`].
 
 --
 // OVERVIEW SECTION ENDS

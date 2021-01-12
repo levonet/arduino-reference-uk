@@ -30,13 +30,13 @@ title: Serial.readBytes()
 [float]
 === Параметри
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
-`buffer`: the buffer to store the bytes in. Allowed data types: array of `char` or `byte`. +
-`length`: the number of bytes to read. Allowed data types: `int`.
+`buffer`: the buffer to store the bytes in. Очікує тип даних: array of `char` or `byte`. +
+`length`: the number of bytes to read. Очікує тип даних: `int`.
 
 
 [float]
 === Повертає
-The number of bytes placed in the buffer. Data type: `size_t`.
+The number of bytes placed in the buffer. Тип даних: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

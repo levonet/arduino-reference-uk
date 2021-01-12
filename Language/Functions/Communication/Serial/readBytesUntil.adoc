@@ -30,14 +30,14 @@ Serial.readBytesUntil() reads characters from the serial buffer into an array. T
 [float]
 === Параметри
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
-`character`: the character to search for. Allowed data types: `char`. +
-`buffer`: the buffer to store the bytes in. Allowed data types: array of `char` or `byte`. +
-`length`: the number of bytes to read. Allowed data types: `int`.
+`character`: the character to search for. Очікує тип даних: `char`. +
+`buffer`: the buffer to store the bytes in. Очікує тип даних: array of `char` or `byte`. +
+`length`: the number of bytes to read. Очікує тип даних: `int`.
 
 
 [float]
 === Повертає
-Data type: `size_t`.
+Тип даних: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

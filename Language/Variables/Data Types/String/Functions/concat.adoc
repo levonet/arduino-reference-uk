@@ -30,7 +30,7 @@ Appends the parameter to a String.
 [float]
 === Параметри
 `myString`: a variable of type `String`. +
-`parameter`: Allowed data types: `String`, `string`, `char`, `byte`, `int`, `unsigned int`, `long`, `unsigned long`, `float`, `double`, `__FlashStringHelper`(`F()` macro).
+`parameter`: Очікує тип даних: `String`, `string`, `char`, `byte`, `int`, `unsigned int`, `long`, `unsigned long`, `float`, `double`, `__FlashStringHelper`(`F()` macro).
 
 
 [float]

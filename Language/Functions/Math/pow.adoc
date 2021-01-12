@@ -28,13 +28,13 @@ Calculates the value of a number raised to a power. `pow()` can be used to raise
 
 [float]
 === Параметри
-`base`: the number. Allowed data types: `float`. +
-`exponent`: the power to which the base is raised. Allowed data types: `float`.
+`base`: the number. Очікує тип даних: `float`. +
+`exponent`: the power to which the base is raised. Очікує тип даних: `float`.
 
 
 [float]
 === Повертає
-The result of the exponentiation. Data type: `double`.
+The result of the exponentiation. Тип даних: `double`.
 
 --
 // OVERVIEW SECTION ENDS

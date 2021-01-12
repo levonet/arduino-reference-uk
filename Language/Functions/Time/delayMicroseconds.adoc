@@ -30,7 +30,7 @@ Currently, the largest value that will produce an accurate delay is 16383. This 
 
 [float]
 === Параметри
-`us`: the number of microseconds to pause. Allowed data types: `unsigned int`.
+`us`: the number of microseconds to pause. Очікує тип даних: `unsigned int`.
 
 
 [float]

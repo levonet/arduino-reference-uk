@@ -30,13 +30,13 @@ This function is part of the Stream class, and can be called by any class that i
 [float]
 === Параметри
 `stream`: an instance of a class that inherits from Stream. +
-`buffer`: the buffer to store the bytes in. Allowed data types: array of `char` or `byte`. +
-`length`: the number of bytes to read. Allowed data types: `int`.
+`buffer`: the buffer to store the bytes in. Очікує тип даних: array of `char` or `byte`. +
+`length`: the number of bytes to read. Очікує тип даних: `int`.
 
 
 [float]
 === Повертає
-The number of bytes placed in the buffer. Data type: `size_t`.
+The number of bytes placed in the buffer. Тип даних: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

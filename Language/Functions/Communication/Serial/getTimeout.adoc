@@ -32,7 +32,7 @@ None
 
 [float]
 === Повертає
-The timeout value set by `Serial.setTimeout()`. Data type: `unsigned long`.
+The timeout value set by `Serial.setTimeout()`. Тип даних: `unsigned long`.
 
 --
 // OVERVIEW SECTION ENDS

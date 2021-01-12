@@ -29,8 +29,8 @@ This is a convenient shorthand to calculate the remainder when one integer is di
 
 [float]
 === Параметри
-`x`: variable. Allowed data types: `int`. +
-`divisor`: *non zero* variable or constant. Allowed data types: `int`.
+`x`: variable. Очікує тип даних: `int`. +
+`divisor`: *non zero* variable or constant. Очікує тип даних: `int`.
 
 --
 // OVERVIEW SECTION ENDS

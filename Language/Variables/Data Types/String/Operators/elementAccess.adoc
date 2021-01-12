@@ -30,8 +30,8 @@ Allows you access to the individual characters of a String.
 
 [float]
 === Параметри
-`thisChar`: Allowed data types: char. +
-`myString1`: Allowed data types: String. +
+`thisChar`: Очікує тип даних: char. +
+`myString1`: Очікує тип даних: String. +
 `n`: a numeric variable.
 
 

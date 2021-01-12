@@ -26,7 +26,7 @@ title: Stream.setTimeout()
 [float]
 === Параметри
 `stream`: an instance of a class that inherits from Stream. +
-`time`: timeout duration in milliseconds. Allowed data types: `long`.
+`time`: timeout duration in milliseconds. Очікує тип даних: `long`.
 
 
 [float]

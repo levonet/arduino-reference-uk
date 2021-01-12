@@ -26,7 +26,7 @@ Sends a message that a previously pressed button (invoked through link:../mousep
 
 [float]
 === Параметри
-`button`: which mouse button to press. Allowed data types: `char`.
+`button`: which mouse button to press. Очікує тип даних: `char`.
 
 * `MOUSE_LEFT` (default)
 * `MOUSE_RIGHT`

@@ -31,7 +31,7 @@ This function is part of the Stream class, and can be called by any class that i
 
 [float]
 === Повертає
-The number of bytes available to read. Data type: `int`.
+The number of bytes available to read. Тип даних: `int`.
 
 --
 // OVERVIEW SECTION ENDS

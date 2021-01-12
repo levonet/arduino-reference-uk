@@ -29,7 +29,7 @@ An optional second argument configures the data, parity, and stop bits. The defa
 [float]
 === Параметри
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
-`speed`: in bits per second (baud). Allowed data types: `long`. +
+`speed`: in bits per second (baud). Очікує тип даних: `long`. +
 `config`: sets data, parity, and stop bits. Valid values are: +
 `SERIAL_5N1` +
 `SERIAL_6N1` +

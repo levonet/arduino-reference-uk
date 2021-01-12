@@ -29,13 +29,13 @@ title: Serial.find()
 [float]
 === Параметри
 `_Serial_`: serial port object. See the list of available serial ports for each board on the link:../../serial[Serial main page]. +
-`target`: the string to search for. Allowed data types: `char`. +
-`length`: length of the target. Allowed data types: `size_t`.
+`target`: the string to search for. Очікує тип даних: `char`. +
+`length`: length of the target. Очікує тип даних: `size_t`.
 
 
 [float]
 === Повертає
-Data type: `bool`.
+Тип даних: `bool`.
 
 --
 // OVERVIEW SECTION ENDS

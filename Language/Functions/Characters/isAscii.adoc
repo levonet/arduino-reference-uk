@@ -28,7 +28,7 @@ Analyse if a char is Ascii. Returns true if thisChar contains an Ascii character
 
 [float]
 === Параметри
-`thisChar`: variable. Allowed data types: `char`.
+`thisChar`: variable. Очікує тип даних: `char`.
 
 
 [float]

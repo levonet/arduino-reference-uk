@@ -30,7 +30,7 @@ The String reserve() function allows you to allocate a buffer in memory for mani
 [float]
 === Параметри
 `myString`: a variable of type `String`. +
-`size`: the number of bytes in memory to save for String manipulation. Allowed data types: `unsigned int`.
+`size`: the number of bytes in memory to save for String manipulation. Очікує тип даних: `unsigned int`.
 
 
 [float]

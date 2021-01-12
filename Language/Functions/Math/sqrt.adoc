@@ -28,12 +28,12 @@ Calculates the square root of a number.
 
 [float]
 === Параметри
-`x`: the number. Allowed data types: any data type.
+`x`: the number. Очікує тип даних: any data type.
 
 
 [float]
 === Повертає
-The number's square root. Data type: `double`.
+The number's square root. Тип даних: `double`.
 
 --
 // OVERVIEW SECTION ENDS

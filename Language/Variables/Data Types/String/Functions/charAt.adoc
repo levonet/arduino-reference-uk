@@ -30,7 +30,7 @@ Access a particular character of the String.
 [float]
 === Параметри
 `myString`: a variable of type `String`. +
-`n`: a variable. Allowed data types: `unsigned int`.
+`n`: a variable. Очікує тип даних: `unsigned int`.
 
 
 [float]

@@ -29,7 +29,7 @@ Terminate a function and return a value from a function to the calling function,
 
 [float]
 === Параметри
-`value`: Allowed data types: any variable or constant type.
+`value`: Очікує тип даних: any variable or constant type.
 
 --
 // OVERVIEW SECTION ENDS

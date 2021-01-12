@@ -36,8 +36,8 @@ A review of the Bitwise AND `&` operator:
 
 [float]
 === Параметри
-`x`: variable. Allowed data types: `char`, `int`, `long`. +
-`y`: variable or constant. Allowed data types: `char`, `int`, `long`.
+`x`: variable. Очікує тип даних: `char`, `int`, `long`. +
+`y`: variable or constant. Очікує тип даних: `char`, `int`, `long`.
 
 --
 // OVERVIEW SECTION ENDS

@@ -33,7 +33,7 @@ Writes binary data to the serial port. This data is sent as a byte or series of 
 
 [float]
 === Повертає
-`write()` will return the number of bytes written, though reading that number is optional. Data type: `size_t`.
+`write()` will return the number of bytes written, though reading that number is optional. Тип даних: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

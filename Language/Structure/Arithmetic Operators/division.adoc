@@ -29,9 +29,9 @@ subCategories: [ "Arithmetic Operators" ]
 
 [float]
 === Параметри
-`result`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
-`numerator`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
-`denominator`: *non zero* variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
+`result`: variable. Очікує тип даних: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`numerator`: variable or constant. Очікує тип даних: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`denominator`: *non zero* variable or constant. Очікує тип даних: `int`, `float`, `double`, `byte`, `short`, `long`.
 
 --
 // OVERVIEW SECTION ENDS

@@ -29,8 +29,8 @@ This is a convenient shorthand to perform subtraction of a constant or a variabl
 
 [float]
 === Параметри
-`x`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
-`y`: variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
+`x`: variable. Очікує тип даних: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`y`: variable or constant. Очікує тип даних: `int`, `float`, `double`, `byte`, `short`, `long`.
 
 --
 // OVERVIEW SECTION ENDS

@@ -28,9 +28,9 @@ subCategories: [ "Arithmetic Operators" ]
 
 [float]
 === Параметри
-`remainder`: variable. Allowed data types: `int`, `float`, `double`. +
-`dividend`: variable or constant. Allowed data types: `int`. +
-`divisor`: *non zero* variable or constant. Allowed data types: `int`.
+`remainder`: variable. Очікує тип даних: `int`, `float`, `double`. +
+`dividend`: variable or constant. Очікує тип даних: `int`. +
+`divisor`: *non zero* variable or constant. Очікує тип даних: `int`.
 
 --
 // OVERVIEW SECTION ENDS

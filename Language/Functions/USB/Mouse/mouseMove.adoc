@@ -25,9 +25,9 @@ Moves the cursor on a connected computer. The motion onscreen is always relative
 
 [float]
 === Параметри
-`xVal`: amount to move along the x-axis. Allowed data types: `signed char`. +
-`yVal`: amount to move along the y-axis. Allowed data types: `signed char`. +
-`wheel`: amount to move scroll wheel. Allowed data types: `signed char`.
+`xVal`: amount to move along the x-axis. Очікує тип даних: `signed char`. +
+`yVal`: amount to move along the y-axis. Очікує тип даних: `signed char`. +
+`wheel`: amount to move scroll wheel. Очікує тип даних: `signed char`.
 
 
 [float]

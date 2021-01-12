@@ -16,7 +16,6 @@ aliases: [ /language/functions/advanced-io/noTone/ ]
 
 [float]
 === Опис
-Stops the generation of a square wave triggered by `tone()`. Has no effect if no tone is being generated.
 Зупиняє генерацію https://uk.wikipedia.org/wiki/Меандр_(радіотехніка)[прямокутного сигналу], викликаного функцією `tone()`.
 Якщо звуковий сигнал не генерується, то не має ефекту.
 [%hardbreaks]
@@ -29,7 +28,7 @@ Stops the generation of a square wave triggered by `tone()`. Has no effect if no
 
 [float]
 === Параметри
-`pin`: контакт Arduino, на якому слід припинити генерувати звуковий сигнал
+`pin`: номер контакту Arduino, на якому слід припинити генерувати звуковий сигнал
 
 [float]
 === Повертає

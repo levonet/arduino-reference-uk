@@ -29,8 +29,8 @@ This is a convenient shorthand to perform division of a variable with another co
 
 [float]
 === Параметри
-`x`: variable. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`. +
-`y`: *non zero* variable or constant. Allowed data types: `int`, `float`, `double`, `byte`, `short`, `long`.
+`x`: variable. Очікує тип даних: `int`, `float`, `double`, `byte`, `short`, `long`. +
+`y`: *non zero* variable or constant. Очікує тип даних: `int`, `float`, `double`, `byte`, `short`, `long`.
 
 --
 // OVERVIEW SECTION ENDS

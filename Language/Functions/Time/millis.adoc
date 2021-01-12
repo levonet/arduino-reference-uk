@@ -28,7 +28,7 @@ None
 
 [float]
 === Повертає
-Number of milliseconds passed since the program started. Data type: `unsigned long`.
+Number of milliseconds passed since the program started. Тип даних: `unsigned long`.
 
 --
 // OVERVIEW SECTION ENDS

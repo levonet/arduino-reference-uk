@@ -29,8 +29,8 @@ The left shift operator `<<` causes the bits of the left operand to be shifted *
 
 [float]
 === Параметри
-`variable`: Allowed data types: `byte`, `int`, `long`. +
-`number_of_bits`: a number that is < = 32. Allowed data types: `int`.
+`variable`: Очікує тип даних: `byte`, `int`, `long`. +
+`number_of_bits`: a number that is < = 32. Очікує тип даних: `int`.
 
 --
 // OVERVIEW SECTION ENDS

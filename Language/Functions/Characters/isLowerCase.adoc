@@ -28,7 +28,7 @@ Analyse if a char is lower case (that is a letter in lower case). Returns true i
 
 [float]
 === Параметри
-`thisChar`: variable. Allowed data types: `char`.
+`thisChar`: variable. Очікує тип даних: `char`.
 
 
 [float]

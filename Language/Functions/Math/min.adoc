@@ -28,8 +28,8 @@ Calculates the minimum of two numbers.
 
 [float]
 === Параметри
-`x`: the first number. Allowed data types: any data type. +
-`y`: the second number. Allowed data types: any data type.
+`x`: the first number. Очікує тип даних: any data type. +
+`y`: the second number. Очікує тип даних: any data type.
 
 
 [float]

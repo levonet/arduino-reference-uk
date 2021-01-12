@@ -56,8 +56,8 @@ gives you the String "1101", which is the binary representation of 13.
 
 [float]
 === Параметри
-`val`:  a variable to format as a String. Allowed data types: string, char, byte, int, long, unsigned int, unsigned long, float, double. +
-`base`: (optional) the base in which to format an integral value. +
+`val`:  a variable to format as a String. Очікує тип даних: string, char, byte, int, long, unsigned int, unsigned long, float, double. +
+`base`: (необов’язковий) the base in which to format an integral value. +
 `decimalPlaces`: *only if val is float or double*. The desired decimal places.
 
 

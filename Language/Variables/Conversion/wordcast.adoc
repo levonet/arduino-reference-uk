@@ -30,14 +30,14 @@ Converts a value to the `link:../../data-types/word[word]` data type.
 
 [float]
 === Параметри
-`x`: a value. Allowed data types: any type. +
+`x`: a value. Очікує тип даних: any type. +
 `h`: the high-order (leftmost) byte of the word. +
 `l`: the low-order (rightmost) byte of the word.
 
 
 [float]
 === Повертає
-Data type: link:../../data-types/word[`word`].
+Тип даних: link:../../data-types/word[`word`].
 
 --
 // OVERVIEW SECTION ENDS

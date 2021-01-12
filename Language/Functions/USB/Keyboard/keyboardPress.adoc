@@ -27,12 +27,12 @@ It is necessary to call link:../keyboardbegin[Keyboard.begin()] before using `pr
 
 [float]
 === Параметри
-`key`: the key to press. Allowed data types: `char`.
+`key`: the key to press. Очікує тип даних: `char`.
 
 
 [float]
 === Повертає
-Number of key presses sent. Data type: `size_t`.
+Number of key presses sent. Тип даних: `size_t`.
 
 --
 // OVERVIEW SECTION ENDS

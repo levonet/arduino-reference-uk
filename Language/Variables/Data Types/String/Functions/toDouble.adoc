@@ -34,7 +34,7 @@ Converts a valid String to a double. The input String should start with a digit.
 
 [float]
 === Повертає
-If no valid conversion could be performed because the String doesn't start with a digit, a zero is returned. Data type: `double`.
+If no valid conversion could be performed because the String doesn't start with a digit, a zero is returned. Тип даних: `double`.
 
 --
 // OVERVIEW SECTION ENDS

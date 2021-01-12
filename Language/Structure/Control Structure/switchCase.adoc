@@ -44,8 +44,8 @@ switch (var) {
 
 [float]
 === Параметри
-`var`: a variable whose value to compare with various cases. Allowed data types: `int`, `char`. +
-`label1`, `label2`: constants. Allowed data types: `int`, `char`.
+`var`: a variable whose value to compare with various cases. Очікує тип даних: `int`, `char`. +
+`label1`, `label2`: constants. Очікує тип даних: `int`, `char`.
 
 
 [float]

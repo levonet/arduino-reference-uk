@@ -30,8 +30,8 @@ Copies the String's characters to the supplied buffer.
 [float]
 === Параметри
 `myString`: a variable of type `String`. +
-`buf`: the buffer to copy the characters into. Allowed data types: array of `char`. +
-`len`: the size of the buffer. Allowed data types: `unsigned int`.
+`buf`: the buffer to copy the characters into. Очікує тип даних: array of `char`. +
+`len`: the size of the buffer. Очікує тип даних: `unsigned int`.
 
 
 [float]

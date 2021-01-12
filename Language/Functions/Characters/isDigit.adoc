@@ -28,7 +28,7 @@ Analyse if a char is a digit (that is a number). Returns true if thisChar is a n
 
 [float]
 === Параметри
-`thisChar`: variable. Allowed data types: `char`.
+`thisChar`: variable. Очікує тип даних: `char`.
 
 
 [float]

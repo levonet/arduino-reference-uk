@@ -32,7 +32,7 @@ Locates a character or String within another String. By default, searches from t
 [float]
 === Параметри
 `myString`: a variable of type `String`. +
-`val`: the value to search for. Allowed data types: `char`, `String`. +
+`val`: the value to search for. Очікує тип даних: `char`, `String`. +
 `from`: the index to start the search from.
 
 

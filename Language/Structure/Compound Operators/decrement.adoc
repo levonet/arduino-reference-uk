@@ -30,7 +30,7 @@ Decrements the value of a variable by 1.
 
 [float]
 === Параметри
-`x`: variable. Allowed data types: `int`, `long` (possibly unsigned).
+`x`: variable. Очікує тип даних: `int`, `long` (possibly unsigned).
 
 
 [float]
