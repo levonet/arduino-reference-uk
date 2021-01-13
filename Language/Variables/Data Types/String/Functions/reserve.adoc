@@ -35,7 +35,7 @@ The String reserve() function allows you to allocate a buffer in memory for mani
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

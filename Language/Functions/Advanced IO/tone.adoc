@@ -17,13 +17,13 @@ subCategories: [ "Advanced I/O" ]
 
 [float]
 === Опис
-Generates a square wave of the specified frequency (and 50% duty cycle) on a pin. A duration can be specified, otherwise the wave continues until a call to link:../notone[noTone()]. The pin can be connected to a piezo buzzer or other speaker to play tones.
+Генерує прямокутну хвилю заданої частоти (з коефіцієнтом заповнення 50%) на контакті. Можна вказати тривалість, інакше хвиля триває до виклику link:../notone[noTone()]. Контакт можна під'єднати до п’єзозуммера чи іншої колонки для відтворення звуку.
 
-Only one tone can be generated at a time. If a tone is already playing on a different pin, the call to `tone()` will have no effect. If the tone is playing on the same pin, the call will set its frequency.
+Одночасно може генеруватися лише один тон. Якщо тон вже відтворюється на іншому контакті, то виклик `tone()` не матиме ефекту. Якщо тон звучить на тому самому контакті, то виклик встановить вказану частоту.
 
-Use of the `tone()` function will interfere with PWM output on pins 3 and 11 (on boards other than the Mega).
+Використання функції `tone()` заважати виходам ШІМ на контактах 3 та 11 (на всіх платах, крім Mega).
 
-It is not possible to generate tones lower than 31Hz. For technical details, see https://github.com/bhagman/Tone#ugly-details[Brett Hagman's notes].
+Неможливо генерувати тон нижче 31Гц. Технічні подробиці дивись у https://github.com/bhagman/Tone#ugly-details[примітках Бретта Хагмена].
 [%hardbreaks]
 
 
@@ -35,14 +35,14 @@ It is not possible to generate tones lower than 31Hz. For technical details, see
 
 [float]
 === Параметри
-`pin`: the Arduino pin on which to generate the tone. +
-`frequency`: the frequency of the tone in hertz. Очікує тип даних: `unsigned int`. +
-`duration` (необов’язковий): the duration of the tone in milliseconds. Очікує тип даних: `unsigned long`.
+`pin`: контакт Arduino, на якому генерується тон. +
+`frequency`: частота тону в герцах. Очікує тип даних: `unsigned int`. +
+`duration` (необов’язковий): тривалість тону в мілісекундах. Очікує тип даних: `unsigned long`.
 
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS
@@ -56,7 +56,7 @@ Nothing
 
 [float]
 === Примітки та попередження
-If you want to play different pitches on multiple pins, you need to call `noTone()` on one pin before calling `tone()` on the next pin.
+Якщо ви хочете відтворити різні тони на декількох контактах, то потрібно викликати `noTone()` на одному піні, перш ніж викликати `tone()` на наступному піні.
 [%hardbreaks]
 
 --

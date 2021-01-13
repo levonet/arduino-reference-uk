@@ -36,7 +36,7 @@ Turns off the given interrupt.
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

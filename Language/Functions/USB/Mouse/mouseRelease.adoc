@@ -35,7 +35,7 @@ Sends a message that a previously pressed button (invoked through link:../mousep
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

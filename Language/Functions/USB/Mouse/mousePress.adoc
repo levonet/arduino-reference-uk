@@ -39,7 +39,7 @@ Before using `Mouse.press()`, you need to start communication with link:../mouse
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

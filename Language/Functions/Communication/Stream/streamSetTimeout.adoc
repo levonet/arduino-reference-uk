@@ -31,7 +31,7 @@ title: Stream.setTimeout()
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

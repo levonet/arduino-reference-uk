@@ -57,7 +57,7 @@ By setting the write resolution to 12 bits, you can use `analogWrite()` with val
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

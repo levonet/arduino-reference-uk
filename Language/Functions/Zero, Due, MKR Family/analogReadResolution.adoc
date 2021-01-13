@@ -37,7 +37,7 @@ The *Portenta H7* has a 16 bit ADC, which will allow values between 0 and 65535.
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

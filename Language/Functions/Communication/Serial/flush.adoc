@@ -32,7 +32,7 @@ Waits for the transmission of outgoing serial data to complete. (Prior to Arduin
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

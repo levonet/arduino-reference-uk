@@ -56,7 +56,7 @@ The `analogWrite` function has nothing to do with the analog pins or the `analog
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

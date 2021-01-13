@@ -35,7 +35,7 @@ Writes a bit of a numeric variable.
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

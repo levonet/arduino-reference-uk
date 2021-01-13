@@ -17,11 +17,11 @@ subCategories: [ "Advanced I/O" ]
 
 [float]
 === Опис
-Shifts in a byte of data one bit at a time. Starts from either the most (i.e. the leftmost) or least (rightmost) significant bit. For each bit, the clock pin is pulled high, the next bit is read from the data line, and then the clock pin is taken low.
+Зчитує байт даних виконуючи побітовий зсув по одному біту. Починає з самого старшого (тобто крайнього лівого) або найменшого (правого) біта. Для зчитування кожного біта на тактовий контакт подається `HIGH`, далі з контакту даних зчитується біт, після чого на тактовий контакт подається `LOW`.
 
-If you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the first call to `shiftIn()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
+Для взаємодії з пристроєм який тактується по передньому фронту сигналів переконайтесь, що тактовий контакт встановлений в `LOW` перед першим викликом `shiftIn()`, наприклад викличте `digitalWrite(clockPin, LOW)`.
 
-Note: this is a software implementation; Arduino also provides an link:https://www.arduino.cc/en/Reference/SPI[SPI library] that uses the hardware implementation, which is faster but only works on specific pins.
+Ця функція є програмною реалізацією SPI; також існує link:https://www.arduino.cc/en/Reference/SPI[бібліотека SPI], що використовує апаратну реалізацію, яка є швидшою, але працює лише на певних контактах.
 [%hardbreaks]
 
 
@@ -32,14 +32,14 @@ Note: this is a software implementation; Arduino also provides an link:https://w
 
 [float]
 === Параметри
-`dataPin`: the pin on which to input each bit. Очікує тип даних: `int`. +
-`clockPin`: the pin to toggle to signal a read from *dataPin*. +
-`bitOrder`: which order to shift in the bits; either *MSBFIRST* or *LSBFIRST*. (Most Significant Bit First, or, Least Significant Bit First).
+`dataPin`: контакт з якого буде зчитуватись кожен біт. Очікує тип даних: `int`. +
+`clockPin`: контакт тактового сигналу, який буде перемикатись для зчитування кожного біту з *dataPin*. +
+`bitOrder`: задає порядок в якому будуть зсуватись біти при зчитуванні; може бути *MSBFIRST*, або *LSBFIRST*. (Most Significant Bit First Старший значний біт першим, або Least Significant Bit First Менший значний біт першим).
 
 
 [float]
 === Повертає
-The value read. Тип даних: `byte`.
+Зчитане значення. Тип даних: `byte`.
 
 --
 // OVERVIEW SECTION ENDS

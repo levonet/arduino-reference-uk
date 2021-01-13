@@ -33,7 +33,7 @@ Pauses the program for the amount of time (in milliseconds) specified as paramet
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

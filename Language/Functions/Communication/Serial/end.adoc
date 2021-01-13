@@ -30,7 +30,7 @@ Disables serial communication, allowing the RX and TX pins to be used for genera
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

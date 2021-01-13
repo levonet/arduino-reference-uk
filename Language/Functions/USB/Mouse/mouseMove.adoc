@@ -32,7 +32,7 @@ Moves the cursor on a connected computer. The motion onscreen is always relative
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

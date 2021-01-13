@@ -33,7 +33,7 @@ title: Serial.setTimeout()
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

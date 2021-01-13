@@ -34,7 +34,7 @@ Get a lower-case version of a String. As of 1.0, toLowerCase() modifies the Stri
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

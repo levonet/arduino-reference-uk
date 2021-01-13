@@ -13,11 +13,12 @@ subCategories: [ "Advanced I/O" ]
 
 [float]
 === Опис
-Shifts out a byte of data one bit at a time. Starts from either the most (i.e. the leftmost) or least (rightmost) significant bit. Each bit is written in turn to a data pin, after which a clock pin is pulsed (taken high, then low) to indicate that the bit is available.
 
-Note- if you're interfacing with a device that's clocked by rising edges, you'll need to make sure that the clock pin is low before the call to `shiftOut()`, e.g. with a call to `digitalWrite(clockPin, LOW)`.
+Виводить байт даних виконуючи побітовий зсув по одному біту. Починає з самого старшого (тобто крайнього лівого) або найменшого (правого) біта. Кожен біт записується по черзі на контакт даних, після чого подається імпульс на тактовий контакт (подається `HIGH`, потім `LOW`), щоб вказати, що біт доступний.
 
-This is a software implementation; see also the https://www.arduino.cc/en/Reference/SPI[SPI library], which provides a hardware implementation that is faster but works only on specific pins.
+Для взаємодії з пристроєм який тактується по передньому фронту сигналів переконайтесь, що тактовий контакт встановлений в `LOW` перед першим викликом `shiftOut()`, наприклад викличте `digitalWrite(clockPin, LOW)`.
+
+Ця функція є програмною реалізацією SPI; також існує link:https://www.arduino.cc/en/Reference/SPI[бібліотека SPI], що використовує апаратну реалізацію, яка є швидшою, але працює лише на певних контактах.
 [%hardbreaks]
 
 
@@ -28,15 +29,14 @@ This is a software implementation; see also the https://www.arduino.cc/en/Refere
 
 [float]
 === Параметри
-`dataPin`: the pin on which to output each bit. Очікує тип даних: `int`. +
-`clockPin`: the pin to toggle once the dataPin has been set to the correct value. Очікує тип даних: `int`. +
-`bitOrder`: which order to shift out the bits; either MSBFIRST or LSBFIRST. (Most Significant Bit First, or, Least Significant Bit First). +
-`value`: the data to shift out. Очікує тип даних: `byte`.
-
+`dataPin`: контакт на який буде записуватись кожен біт. Очікує тип даних: `int`. +
+`clockPin`: контакт тактового сигналу, який буде перемикатись під час передачі значення на *dataPin*. +
+`bitOrder`: задає порядок в якому будуть зсуватись біти при виводі; може бути *MSBFIRST*, або *LSBFIRST*. (Most Significant Bit First Старший значний біт першим, або Least Significant Bit First Менший значний біт першим). +
+`value`: дані для виводу. Очікує тип даних: `byte`.
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS
@@ -51,7 +51,7 @@ Nothing
 [float]
 === Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-For accompanying circuit, see the https://arduino.cc/en/Tutorial/ShiftOut[tutorial on controlling a 74HC595 shift register].
+Відповідна схема описана в https://arduino.cc/en/Tutorial/ShiftOut[інструкції з управління регістром зсуву 74HC595].
 
 [source,arduino]
 ----
@@ -60,32 +60,32 @@ For accompanying circuit, see the https://arduino.cc/en/Tutorial/ShiftOut[tutori
 //  Author  : Carlyn Maw,Tom Igoe                               //
 //  Date    : 25 Oct, 2006                                      //
 //  Version : 1.0                                               //
-//  Notes   : Code for using a 74HC595 Shift Register           //
-//          : to count from 0 to 255                            //
+//  Notes   : Програма використовує регістр зсуву 74HC595       //
+//          : для рахунку від 0 до 255                          //
 //****************************************************************
 
-//Pin connected to ST_CP of 74HC595
+// Контакт з'єднаний з ST_CP на 74HC595
 int latchPin = 8;
-//Pin connected to SH_CP of 74HC595
+// Контакт з'єднаний з SH_CP на 74HC595
 int clockPin = 12;
-////Pin connected to DS of 74HC595
+// Контакт з'єднаний з DS на 74HC595
 int dataPin = 11;
 
 void setup() {
-  //set pins to output because they are addressed in the main loop
+  // Контакти встановлюємо на вивід
   pinMode(latchPin, OUTPUT);
   pinMode(clockPin, OUTPUT);
   pinMode(dataPin, OUTPUT);
 }
 
 void loop() {
-  //count up routine
+  // Процедура послідовного підрахунку
   for (int j = 0; j < 256; j++) {
-    //ground latchPin and hold low for as long as you are transmitting
+    // Заземлюємо latchPin та утримуємо в LOW поки йде передача
     digitalWrite(latchPin, LOW);
     shiftOut(dataPin, clockPin, LSBFIRST, j);
-    //return the latch pin high to signal chip that it
-    //no longer needs to listen for information
+    // Повертаємо контакт в HIGH, щоб сигналізувати мікросхемі,
+    // що їй більше не потрібно слухати інформацію
     digitalWrite(latchPin, HIGH);
     delay(1000);
   }
@@ -95,23 +95,23 @@ void loop() {
 
 [float]
 === Примітки та попередження
-The dataPin and clockPin must already be configured as outputs by a call to link:../../digital-io/pinmode[pinMode()].
+`dataPin` і `clockPin` вже повинні бути налаштовані як виходи за допомогою виклику link:../../digital-io/pinmode[pinMode()].
 
-shiftOut is currently written to output 1 byte (8 bits) so it requires a two step operation to output values larger than 255.
+На даний момент shiftOut записує на вихід 1 байт (8 біт), тому для виведення значень більших за 255 потрібна двоступенева операція.
 [source,arduino]
 ----
-// Do this for MSBFIRST serial
+// Робимо для серійної передачі MSBFIRST
 int data = 500;
-// shift out highbyte
+// Зсуваємо та виводимо старший байт
 shiftOut(dataPin, clock, MSBFIRST, (data >> 8));
-// shift out lowbyte
+// Виводимо молодший байт
 shiftOut(dataPin, clock, MSBFIRST, data);
 
-// Or do this for LSBFIRST serial
+// Або для серійної передачі LSBFIRST
 data = 500;
-// shift out lowbyte
+// Виводимо молодший байт
 shiftOut(dataPin, clock, LSBFIRST, data);
-// shift out highbyte
+// Зсуваємо та виводимо старший байт
 shiftOut(dataPin, clock, LSBFIRST, (data >> 8));
 ----
 [%hardbreaks]

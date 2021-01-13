@@ -36,7 +36,7 @@ Copies the String's characters to the supplied buffer.
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

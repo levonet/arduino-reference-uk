@@ -36,7 +36,7 @@ Sets a character of the String. Has no effect on indices outside the existing le
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

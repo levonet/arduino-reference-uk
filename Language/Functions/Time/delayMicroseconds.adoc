@@ -35,7 +35,7 @@ Currently, the largest value that will produce an accurate delay is 16383. This 
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

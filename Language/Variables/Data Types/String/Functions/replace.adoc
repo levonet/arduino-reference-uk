@@ -36,7 +36,7 @@ The String replace() function allows you to replace all instances of a given cha
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

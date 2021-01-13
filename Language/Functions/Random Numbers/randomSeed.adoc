@@ -37,7 +37,7 @@ Conversely, it can occasionally be useful to use pseudo-random sequences that re
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

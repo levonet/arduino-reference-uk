@@ -51,7 +51,7 @@ void serialEvent3() {
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

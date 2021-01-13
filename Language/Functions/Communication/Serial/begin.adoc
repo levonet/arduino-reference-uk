@@ -59,7 +59,7 @@ An optional second argument configures the data, parity, and stop bits. The defa
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

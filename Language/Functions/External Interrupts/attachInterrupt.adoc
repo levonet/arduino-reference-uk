@@ -83,7 +83,7 @@ The Due, Zero and MKR1000 boards allow also: +
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS

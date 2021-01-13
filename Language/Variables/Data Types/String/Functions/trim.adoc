@@ -34,7 +34,7 @@ Get a version of the String with any leading and trailing whitespace removed. As
 
 [float]
 === Повертає
-Nothing
+Нічого
 
 --
 // OVERVIEW SECTION ENDS
