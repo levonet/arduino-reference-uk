@@ -17,47 +17,47 @@ subCategories: [ "Analog I/O" ]
 
 [float]
 === Опис
-Configures the reference voltage used for analog input (i.e. the value used as the top of the input range). The options are:
+Налаштовує опорну напругу для аналогового входу (тобто значення, яке використовується як верхня межа вхідного діапазону). Варіанти:
 
-Arduino AVR Boards (Uno, Mega, Leonardo, etc.)
+Плати Arduino AVR (Uno, Mega, Leonardo, тощо)
 
-* DEFAULT: the default analog reference of 5 volts (on 5V Arduino boards) or 3.3 volts (on 3.3V Arduino boards)
-* INTERNAL: a built-in reference, equal to 1.1 volts on the ATmega168 or ATmega328P and 2.56 volts on the ATmega32U4 and ATmega8 (not available on the Arduino Mega)
-* INTERNAL1V1: a built-in 1.1V reference (Arduino Mega only)
-* INTERNAL2V56: a built-in 2.56V reference (Arduino Mega only)
-* EXTERNAL: the voltage applied to the AREF pin (0 to 5V only) is used as the reference.
+* DEFAULT: аналогове значення за замовчуванням 5 вольт (на платах Arduino 5V) або 3.3 вольта (на платах Arduino 3.3V)
+* INTERNAL: вбудована опорна напруга, відповідно 1.1 вольта на ATmega168 та ATmega328P та 2.56 вольта на ATmega32U4 та ATmega8 (недоступна на Arduino Mega)
+* INTERNAL1V1: вбудована опорна напруга 1.1В (тільки для Arduino Mega)
+* INTERNAL2V56: вбудована опорна напруга 2.56В (тільки для Arduino Mega)
+* EXTERNAL: використовується напруга як опорна, що подається на контакт AREF (лише від 0 до 5В).
 
-Arduino SAMD Boards (Zero, etc.)
+Плати Arduino SAMD (Zero, тощо)
 
-* AR_DEFAULT: the default analog reference of 3.3V
-* AR_INTERNAL: a built-in 2.23V reference
-* AR_INTERNAL1V0: a built-in 1.0V reference
-* AR_INTERNAL1V65: a built-in 1.65V reference
-* AR_INTERNAL2V23: a built-in 2.23V reference
-* AR_EXTERNAL: the voltage applied to the AREF pin is used as the reference
+* AR_DEFAULT: опорна напруга за замовченням 3.3В
+* AR_INTERNAL: вбудована опорна напруга 2.23В
+* AR_INTERNAL1V0: вбудована опорна напруга 1.0В
+* AR_INTERNAL1V65: вбудована опорна напруга 1.65В
+* AR_INTERNAL2V23: вбудована опорна напруга 2.23В
+* AR_EXTERNAL: використовується напруга як опорна, що подається на контакт AREF
 
-Arduino megaAVR Boards (Uno WiFi Rev2)
+Плати Arduino megaAVR (Uno WiFi Rev2)
 
-* DEFAULT: a built-in 0.55V reference
-* INTERNAL: a built-in 0.55V reference
-* VDD: Vdd of the ATmega4809. 5V on the Uno WiFi Rev2
-* INTERNAL0V55: a built-in 0.55V reference
-* INTERNAL1V1: a built-in 1.1V reference
-* INTERNAL1V5: a built-in 1.5V reference
-* INTERNAL2V5: a built-in 2.5V reference
-* INTERNAL4V3: a built-in 4.3V reference
-* EXTERNAL: the voltage applied to the AREF pin (0 to 5V only) is used as the reference
+* DEFAULT: вбудована опорна напруга 0.55В
+* INTERNAL: вбудована опорна напруга 0.55В
+* VDD: Vdd від ATmega4809. 5В на the Uno WiFi Rev2
+* INTERNAL0V55: вбудована опорна напруга 0.55В
+* INTERNAL1V1: вбудована опорна напруга 1.1В
+* INTERNAL1V5: вбудована опорна напруга 1.5В
+* INTERNAL2V5: вбудована опорна напруга 2.5В
+* INTERNAL4V3: вбудована опорна напруга 4.3В
+* EXTERNAL: використовується напруга як опорна, що подається на контакт AREF (лише від 0 до 5В)
 
-Arduino SAM Boards (Due)
+Плати Arduino SAM (Due)
 
-* AR_DEFAULT: the default analog reference of 3.3V. This is the only supported option for the Due.
+* AR_DEFAULT: опорна напруга за замовченням 3.3В. Це єдиний варіант що підтримується для Due.
 
-Arduino mbed-enabled Boards (Nano 33 BLE only): available when using the _Arduino mbed-enabled Boards_ platform, or the _Arduino nRF528x Boards (Mbed OS)_ platform version 1.1.6 or later
+Плати Arduino mbed-enabled (лише Nano 33 BLE): доступно при використанні платформи _Arduino mbed-enabled Boards_, або _Arduino nRF528x Boards (Mbed OS)_ версії 1.1.6 або пізнішої
 
-* AR_VDD: the default 3.3 V reference
-* AR_INTERNAL: built-in 0.6 V reference
-* AR_INTERNAL1V2: 1.2 V reference (internal 0.6 V reference with 2x gain)
-* AR_INTERNAL2V4: 2.4 V reference (internal 0.6 V reference with 4x gain)
+* AR_VDD: опорна напруга за замовченням 3.3В
+* AR_INTERNAL: вбудована опорна напруга 0.6В
+* AR_INTERNAL1V2: опорна напруга 1.2В (внутрішня опорна напруга 0.6В з коефіцієнтом посилення 2)
+* AR_INTERNAL2V4: опорна напруга 2.4В (внутрішня опорна напруга 0.6В з коефіцієнтом посилення 4)
 
 [%hardbreaks]
 
@@ -69,7 +69,7 @@ Arduino mbed-enabled Boards (Nano 33 BLE only): available when using the _Arduin
 
 [float]
 === Параметри
-`type`: which type of reference to use (see list of options in the description).
+`type`: який тип опорної напруги використовувати (див. перелік варіантів в описі).
 
 
 [float]
@@ -88,11 +88,11 @@ Arduino mbed-enabled Boards (Nano 33 BLE only): available when using the _Arduin
 
 [float]
 === Примітки та попередження
-After changing the analog reference, the first few readings from `analogRead()` may not be accurate.
+Після зміни аналогової опорної напруги перші кілька показань з `analogRead()` можуть бути неточними.
 
-*Don't use anything less than 0V or more than 5V for external reference voltage on the AREF pin! If you're using an external reference on the AREF pin, you must set the analog reference to EXTERNAL before calling `analogRead()`.* Otherwise, you will short together the active reference voltage (internally generated) and the AREF pin, possibly damaging the microcontroller on your Arduino board.
+*Не використовуйте нічого менше 0В або більше 5В для зовнішньої опорної напруги на контакті AREF! Якщо ви використовуєте зовнішню опорну напругу на контакті AREF, перед викликом `analogRead()` необхідно встановити аналогову опорну напругу на EXTERNAL.* В іншому випадку ви замикаєте активну опорну напругу (генеровану внутрішньо) та контакт AREF, що може пошкодити мікроконтролер на платі Arduino.
 
-Alternatively, you can connect the external reference voltage to the AREF pin through a 5K resistor, allowing you to switch between external and internal reference voltages. Note that the resistor will alter the voltage that gets used as the reference because there is an internal 32K resistor on the AREF pin. The two act as a voltage divider, so, for example, 2.5V applied through the resistor will yield 2.5 * 32 / (32 + 5) = ~2.2V at the AREF pin.
+Крім того, ви можете приєднати зовнішню опорну напругу до виводу AREF через резистор 5K, що дозволяє перемикатися між зовнішньою та внутрішньою опорними напругами. Зверніть увагу, що резистор змінить напругу, яка використовується як опорна, оскільки на контакті AREF є внутрішній резистор 32K. Вони діють як дільник напруги, тому, наприклад, 2,5В, подані через резистор, дадуть вихід 2.5 * 32 / (32 + 5) = ~2.2В на контакті AREF.
 [%hardbreaks]
 
 --
@@ -107,7 +107,7 @@ Alternatively, you can connect the external reference voltage to the AREF pin th
 === Дивись також
 
 [role="example"]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Опис вхідних аналогових контактів^]
 
 --
 // SEE ALSO SECTION ENDS
