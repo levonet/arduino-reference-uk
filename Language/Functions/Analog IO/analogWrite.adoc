@@ -17,29 +17,29 @@ subCategories: [ "Analog I/O" ]
 
 [float]
 === Опис
-Writes an analog value (http://arduino.cc/en/Tutorial/PWM[PWM wave]) to a pin. Can be used to light a LED at varying brightnesses or drive a motor at various speeds. After a call to `analogWrite()`, the pin will generate a steady rectangular wave of the specified duty cycle until the next call to `analogWrite()` (or a call to `digitalRead()` or `digitalWrite()`) on the same pin. 
+Виводить на контакт аналоговий сигнал (http://arduino.cc/en/Tutorial/PWM[ШІМ]). Може використовуватися для керування яскравістю світлодіода або керуванням швидкістю двигуна. Після виклику `analogWrite()`, на контакті буде генеруватись постійний прямокутний сигнал з визначеним коефіцієнтом заповнення до наступного виклику `analogWrite()` (або виклику `digitalRead()` чи `digitalWrite()`) на тому самому контакті. 
 [options="header"]
 |========================================================================================================
-| Board                     | PWM Pins                       | PWM Frequency
-| Uno, Nano, Mini           | 3, 5, 6, 9, 10, 11             | 490 Hz (pins 5 and 6: 980 Hz)
-| Mega                      | 2 - 13, 44 - 46                | 490 Hz (pins 4 and 13: 980 Hz)
-| Leonardo, Micro, Yún      | 3, 5, 6, 9, 10, 11, 13         | 490 Hz (pins 3 and 11: 980 Hz)
-| Uno WiFi Rev2, Nano Every | 3, 5, 6, 9, 10                 | 976 Hz
-| MKR boards *              | 0 - 8, 10, A3, A4              | 732 Hz
-| MKR1000 WiFi *            | 0 - 8, 10, 11, A3, A4          | 732 Hz
-| Zero *                    | 3 - 13, A0, A1                 | 732 Hz
-| Nano 33 IoT *             | 2, 3, 5, 6, 9 - 12, A2, A3, A5 | 732 Hz
-| Nano 33 BLE/BLE Sense     | 1 - 13, A0 - A7                | 500 Hz
-| Due **                    | 2-13                           | 1000 Hz
-| 101                       | 3, 5, 6, 9                     | pins 3 and 9: 490 Hz, pins 5 and 6: 980 Hz
+| Плата                     | Контакти ШІМ                   | Частота ШІМ
+| Uno, Nano, Mini           | 3, 5, 6, 9, 10, 11             | 490 Гц (контакти 5 та 6: 980 Гц)
+| Mega                      | 2 - 13, 44 - 46                | 490 Гц (контакти 4 та 13: 980 Гц)
+| Leonardo, Micro, Yún      | 3, 5, 6, 9, 10, 11, 13         | 490 Гц (контакти 3 та 11: 980 Гц)
+| Uno WiFi Rev2, Nano Every | 3, 5, 6, 9, 10                 | 976 Гц
+| MKR boards *              | 0 - 8, 10, A3, A4              | 732 Гц
+| MKR1000 WiFi *            | 0 - 8, 10, 11, A3, A4          | 732 Гц
+| Zero *                    | 3 - 13, A0, A1                 | 732 Гц
+| Nano 33 IoT *             | 2, 3, 5, 6, 9 - 12, A2, A3, A5 | 732 Гц
+| Nano 33 BLE/BLE Sense     | 1 - 13, A0 - A7                | 500 Гц
+| Due **                    | 2-13                           | 1000 Гц
+| 101                       | 3, 5, 6, 9                     | контакти 3 та 9: 490 Гц, контакти 5 та 6: 980 Гц
 |========================================================================================================
-{empty}* In addition to PWM capabilities on the pins noted above, the MKR, Nano 33 IoT, and Zero boards have true analog output when using `analogWrite()` on the `DAC0` (`A0`) pin. +
-{empty}** In addition to PWM capabilities on the pins noted above, the Due has true analog output when using `analogWrite()` on pins `DAC0` and `DAC1`.
+{empty}* На додаток до можливостей ШІМ на наведених вище контактах, плати MKR, Nano 33 IoT та Zero мають справжній аналоговий вихід при використанні `analogWrite()` на контакті `DAC0` (`A0`). +
+{empty}** На додаток до можливостей ШІМ на наведених вище контактах, плати Due мають справжній аналоговий вихід при використанні `analogWrite()` на контактах `DAC0` і `DAC1`.
 
 [%hardbreaks]
 
-You do not need to call `pinMode()` to set the pin as an output before calling `analogWrite()`.
-The `analogWrite` function has nothing to do with the analog pins or the `analogRead` function.
+Не обов'язково викликати `pinMode()` перед викликом `analogWrite()`, щоб встановити контакт як вихідний.
+Функція `analogWrite()` не має нічого спільного з аналоговими контактами або функцією `analogRead()`.
 [%hardbreaks]
 
 
@@ -50,8 +50,8 @@ The `analogWrite` function has nothing to do with the analog pins or the `analog
 
 [float]
 === Параметри
-`pin`: the Arduino pin to write to. Очікує тип даних: `int`. +
-`value`: the duty cycle: between 0 (always off) and 255 (always on). Очікує тип даних: `int`.
+`pin`: номер або ім'я вихідного контакту. Очікує тип даних: `int`. +
+`value`: коефіцієнт заповнення: від 0 (завжди вимкнено) і 255 (завжди увімкнено). Очікує тип даних: `int`.
 
 
 [float]
@@ -70,22 +70,22 @@ The `analogWrite` function has nothing to do with the analog pins or the `analog
 
 [float]
 === Приклад коду
-Sets the output to the LED proportional to the value read from the potentiometer.
+Регулює яскравістю світлодіода пропорційно значенню, зчитаному з потенціометра.
 
 
 [source,arduino]
 ----
-int ledPin = 9;      // LED connected to digital pin 9
-int analogPin = 3;   // potentiometer connected to analog pin 3
-int val = 0;         // variable to store the read value
+int ledPin = 9;      // Світлодіод підключений до цифрового виводу 9
+int analogPin = 3;   // Потенціометр підключений до аналогового виводу 3
+int val = 0;         // Зчитане значення з потенціометра
 
 void setup() {
-  pinMode(ledPin, OUTPUT);  // sets the pin as output
+  pinMode(ledPin, OUTPUT);  // Встановлює контакт як вихід
 }
 
 void loop() {
-  val = analogRead(analogPin);  // read the input pin
-  analogWrite(ledPin, val / 4); // analogRead values go from 0 to 1023, analogWrite values from 0 to 255
+  val = analogRead(analogPin);  // Зчитує з вхідного контакту
+  analogWrite(ledPin, val / 4); // Значення analogRead змінюються від 0 до 1023, значення analogWrite від 0 до 255
 }
 ----
 [%hardbreaks]
@@ -93,7 +93,7 @@ void loop() {
 
 [float]
 === Примітки та попередження
-The PWM outputs generated on pins 5 and 6 will have higher-than-expected duty cycles. This is because of interactions with the `millis()` and `delay()` functions, which share the same internal timer used to generate those PWM outputs. This will be noticed mostly on low duty-cycle settings (e.g. 0 - 10) and may result in a value of 0 not fully turning off the output on pins 5 and 6.
+На контактах 5 та 6 ШІМ-сигнал генерується з вищим коефіцієнтом заповнення ніж очікується. Це відбувається через взаємодією з функціями `millis()` та `delay()`, які мають один і той же внутрішній таймер, який використовується для генерації цього ШІМ сигналу. Це буде помітно здебільшого на малому коефіцієнті заповнення (наприклад, 0 - 10) і може призвести до того, що значення 0 не вимкне повністю вихід на контактах 5 і 6.
 
 --
 // HOW TO USE SECTION ENDS
@@ -110,7 +110,7 @@ The PWM outputs generated on pins 5 and 6 will have higher-than-expected duty cy
 * #LANGUAGE# link:../../zero-due-mkr-family/analogwriteresolution[analogWriteResolution()]
 
 [role="definition"]
-* #DEFINITION# http://arduino.cc/en/Tutorial/PWM[PWM^]
+* #DEFINITION# http://arduino.cc/en/Tutorial/PWM[ШІМ^]
 
 [role="example"]
 * #EXAMPLE# http://arduino.cc/en/Tutorial/Blink[Blink^]

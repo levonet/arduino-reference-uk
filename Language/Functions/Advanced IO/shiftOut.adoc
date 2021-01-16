@@ -51,7 +51,7 @@ subCategories: [ "Advanced I/O" ]
 [float]
 === Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-Відповідна схема описана в https://arduino.cc/en/Tutorial/ShiftOut[інструкції з управління регістром зсуву 74HC595].
+Відповідна схема описана в https://arduino.cc/en/Tutorial/ShiftOut[посібнику з управління регістром зсуву 74HC595].
 
 [source,arduino]
 ----

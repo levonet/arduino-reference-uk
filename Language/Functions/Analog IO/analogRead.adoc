@@ -12,27 +12,27 @@ subCategories: [ "Analog I/O" ]
 
 [float]
 === Опис
-Reads the value from the specified analog pin. Arduino boards contain a multichannel, 10-bit analog to digital converter. This means that it will map input voltages between 0 and the operating voltage(5V or 3.3V) into integer values between 0 and 1023. On an Arduino UNO, for example, this yields a resolution between readings of: 5 volts / 1024 units or, 0.0049 volts (4.9 mV) per unit. See the table below for the usable pins, operating voltage and maximum resolution for some Arduino boards.
+Зчитує аналогову інформацію вимірюючи напругу на вказаному контакті. Плати Arduino містять багатоканальний 10-розрядний аналого-цифровий перетворювач. Це означає, що він зчитує вхідну напругу від 0 до робочої напруги (5В або 3,3В) та перетворює у цілі значення від 0 до 1023. Наприклад, на Arduino UNO роздільна здатність відповідає: 5 вольт / 1024 одиниці або 0,0049 вольт (4,9 мВ) на одиницю. Зчитування аналогової інформації підтримується лише на відповідних контактах плат Arduino. Інформація для деяких плат Arduino про корисні контакти, робочу напругу та максимальну роздільну здатності наведена в таблиці нижче.
 
-The input range can be changed using link:../analogreference[analogReference()], while the resolution can be changed (only for Zero, Due and MKR boards) using link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()].
+Вхідний діапазон можна змінити за допомогою link:../analogreference[analogReference()], тоді як роздільну здатність можна змінити (лише для плат Zero, Due та MKR) за допомогою link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()].
 
-On ATmega based boards (UNO, Nano, Mini, Mega), it takes about 100 microseconds (0.0001 s) to read an analog input, so the maximum reading rate is about 10,000 times a second.
+На платах на базі ATmega (UNO, Nano, Mini, Mega) зчитування аналогового входу займає близько 100 мікросекунд (0,0001 с), тому максимальна швидкість зчитування становить приблизно 10000 разів на секунду.
 
 [options="header"]
 |===================================================
-|Board                     |Operating voltage |Usable pins |Max resolution
-|Uno                       |5 Volts           |A0 to A5    |10 bits
-|Mini, Nano                |5 Volts           |A0 to A7    |10 bits
-|Mega, Mega2560, MegaADK   |5 Volts           |A0 to A14   |10 bits
-|Micro                     |5 Volts           |A0 to A11*  |10 bits
-|Leonardo                  |5 Volts           |A0 to A11*  |10 bits
-|Zero                      |3.3 Volts         |A0 to A5    |12 bits**
-|Due                       |3.3 Volts         |A0 to A11   |12 bits**
-|MKR Family boards         |3.3 Volts         |A0 to A6    |12 bits**
+|Плата                     |Робоча напруга |Контакти    |Максимальна роздільна здатність
+|Uno                       |5 Вольт        |A0 до A5    |10 біт
+|Mini, Nano                |5 Вольт        |A0 до A7    |10 біт
+|Mega, Mega2560, MegaADK   |5 Вольт        |A0 до A14   |10 біт
+|Micro                     |5 Вольт        |A0 до A11*  |10 біт
+|Leonardo                  |5 Вольт        |A0 до A11*  |10 біт
+|Zero                      |3.3 Вольт      |A0 до A5    |12 біт**
+|Due                       |3.3 Вольт      |A0 до A11   |12 біт**
+|Сімейство плат MKR        |3.3 Вольт      |A0 до A6    |12 біт**
 |===================================================
 
-*A0 through A5 are labelled on the board, A6 through A11 are respectively available on pins 4, 6, 8, 9, 10, and 12 +
-**The default `analogRead()` resolution for these boards is 10 bits, for compatibility. You need to use link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()] to change it to 12 bits.
+*A0 – A5 позначені на платі, A6 – A11 відповідно доступні на контактах 4, 6, 8, 9, 10 та 12 +
+**За замовчанням роздільна здатність `analogRead()` для цих плат становить 10 біт для сумісності. Потрібно викликати link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()], щоб змінити її на 12 біт.
 
 [%hardbreaks]
 
@@ -43,12 +43,12 @@ On ATmega based boards (UNO, Nano, Mini, Mega), it takes about 100 microseconds 
 
 [float]
 === Параметри
-`pin`: the name of the analog input pin to read from (A0 to A5 on most boards, A0 to A6 on MKR boards, A0 to A7 on the Mini and Nano, A0 to A15 on the Mega).
+`pin`: номер або ім'я аналогового вхідного контакту для зчитування (A0 до A5 на більшості плат, A0 до A6 на платах MKR, A0 до A7 на Mini та Nano, A0 до A15 на Mega).
 
 
 [float]
 === Повертає
-The analog reading on the pin. Although it is limited to the resolution of the analog to digital converter (0-1023 for 10 bits or 0-4095 for 12 bits). Тип даних: `int`.
+Число відповідне розміру напруги на аналоговому контакті. Воно обмежується роздільною здатністю аналого-цифрового перетворювача (0-1023 для 10 біт або 0-4095 для 12 біт). Тип даних: `int`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -61,28 +61,28 @@ The analog reading on the pin. Although it is limited to the resolution of the a
 [float]
 === Приклад коду
 // Describe what the example code is all about and add relevant code   ►►►►► THIS SECTION IS MANDATORY ◄◄◄◄◄
-The code reads the voltage on analogPin and displays it.
+Код зчитує напругу на `analogPin` та виводить її.
 
 [source,arduino]
 ----
-int analogPin = A3; // potentiometer wiper (middle terminal) connected to analog pin 3
-                    // outside leads to ground and +5V
-int val = 0;  // variable to store the value read
+int analogPin = A3; // Повзунок потенціометра (середній контакт) приєднаний до контакту 3,
+                    // зовнішні виводи на землю та 5В
+int val = 0;        // Змінна для зберігання зчитаного значення
 
 void setup() {
-  Serial.begin(9600);           //  setup serial
+  Serial.begin(9600);           // Налаштовуємо послідовний порт
 }
 
 void loop() {
-  val = analogRead(analogPin);  // read the input pin
-  Serial.println(val);          // debug value
+  val = analogRead(analogPin);  // Зчитуємо вхідний сигнал
+  Serial.println(val);          // Виводимо значення
 }
 ----
 [%hardbreaks]
 
 [float]
 === Примітки та попередження
-If the analog input pin is not connected to anything, the value returned by `analogRead()` will fluctuate based on a number of factors (e.g. the values of the other analog inputs, how close your hand is to the board, etc.).
+Якщо контакт аналогового входу ні до чого не приєднаний, то `analogRead()` буде повертати значення, яке буде коливатися залежно від ряду факторів (наприклад, значень інших аналогових входів, наближення вашої руки до плати тощо).
 
 --
 // HOW TO USE SECTION ENDS
@@ -97,6 +97,6 @@ If the analog input pin is not connected to anything, the value returned by `ana
 
 [role="language"]
 * #LANGUAGE# link:../../zero-due-mkr-family/analogreadresolution[analogReadResolution()]
-* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Description of the analog input pins^]
+* #EXAMPLE# http://arduino.cc/en/Tutorial/AnalogInputPins[Опис вхідних аналогових контактів^]
 --
 // SEE ALSO SECTION ENDS
