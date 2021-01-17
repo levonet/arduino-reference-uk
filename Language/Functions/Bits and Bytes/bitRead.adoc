@@ -17,7 +17,7 @@ subCategories: [ "Bits and Bytes" ]
 
 [float]
 === Опис
-Reads a bit of a number.
+Зчитує біт з зазначеного числа.
 [%hardbreaks]
 
 
@@ -28,13 +28,13 @@ Reads a bit of a number.
 
 [float]
 === Параметри
-`x`: the number from which to read. +
-`n`: which bit to read, starting at 0 for the least-significant (rightmost) bit.
+`x`: число, з якого зчитується біт. +
+`n`: номер біта який потрібно зчитати, починаючи з 0 для наймолодшого (крайнього правого) біта.
 
 
 [float]
 === Повертає
-The value of the bit (0 or 1).
+Значення біта (0 або 1).
 
 --
 // OVERVIEW SECTION ENDS

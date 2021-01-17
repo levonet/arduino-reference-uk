@@ -17,7 +17,7 @@ subCategories: [ "Bits and Bytes" ]
 
 [float]
 === Опис
-Clears (writes a 0 to) a bit of a numeric variable.
+Очищує біт (записує 0) в числовій змінній.
 [%hardbreaks]
 
 
@@ -28,13 +28,13 @@ Clears (writes a 0 to) a bit of a numeric variable.
 
 [float]
 === Параметри
-`x`: the numeric variable whose bit to clear. +
-`n`: which bit to clear, starting at 0 for the least-significant (rightmost) bit.
+`x`: числова змінна, біт якої потрібно очистити. +
+`n`: номер біту який потрібно очистити, починаючи з 0 для наймолодшого (крайнього правого) біта.
 
 
 [float]
 === Повертає
-`x`: the value of the numeric variable after the bit at position `n` is cleared.
+`x`: значення числової змінної після очищення біта в позиції `n`.
 
 --
 // OVERVIEW SECTION ENDS
@@ -48,19 +48,19 @@ Clears (writes a 0 to) a bit of a numeric variable.
 [float]
 === Приклад коду
 // Describe what the example code is all about and add relevant code
-Prints the output of `bitClear(x,n)` on two given integers. The binary representation of 6 is 0110, so when `n=1`, the second bit from the right is set to 0. After this we are left with 0100 in binary, so 4 is returned.
+Виводить результат `bitClear(x, n)`. Бінарне значення 6 дорівнює 0110, тому, коли `n = 1`, другий біт праворуч встановлюється в 0. Після цього залишається 0100 у двійковому вигляді, тому повертається 4.
 
 [source,arduino]
 ----
 void setup() {
   Serial.begin(9600);
   while (!Serial) {
-    ; // wait for serial port to connect. Needed for native USB port only
+    ; // Чекаємо підключення послідовного порту. Потрібно лише при з'єднанні через USB
   }
 
   int x = 6;
   int n = 1;
-  Serial.print(bitClear(x, n)); // print the output of bitClear(x,n)
+  Serial.print(bitClear(x, n)); // Виводимо результат bitClear(x,n)
 }
 
 void loop() {

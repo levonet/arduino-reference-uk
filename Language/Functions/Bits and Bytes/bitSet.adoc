@@ -17,7 +17,7 @@ subCategories: [ "Bits and Bytes" ]
 
 [float]
 === Опис
-Sets (writes a 1 to) a bit of a numeric variable.
+Встановлює біт (записує 1) в числову змінну.
 [%hardbreaks]
 
 
@@ -28,9 +28,8 @@ Sets (writes a 1 to) a bit of a numeric variable.
 
 [float]
 === Параметри
-`x`: the numeric variable whose bit to set. +
-`n`: which bit to set, starting at 0 for the least-significant (rightmost) bit.
-
+`x`: числова змінна, де потрібно встановити біт. +
+`n`: номер біта який потрібно встановити, починаючи з 0 для наймолодшого (крайнього правого) біта.
 
 [float]
 === Повертає

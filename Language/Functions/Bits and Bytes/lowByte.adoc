@@ -17,7 +17,7 @@ subCategories: [ "Bits and Bytes" ]
 
 [float]
 === Опис
-Extracts the low-order (rightmost) byte of a variable (e.g. a word).
+Витягує молодший (крайній правий) байт змінної (наприклад з слова).
 [%hardbreaks]
 
 
@@ -28,7 +28,7 @@ Extracts the low-order (rightmost) byte of a variable (e.g. a word).
 
 [float]
 === Параметри
-`x`: a value of any type
+`x`: значення будь-якого типу
 
 
 [float]

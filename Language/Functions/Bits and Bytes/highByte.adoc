@@ -17,7 +17,7 @@ subCategories: [ "Bits and Bytes" ]
 
 [float]
 === Опис
-Extracts the high-order (leftmost) byte of a word (or the second lowest byte of a larger data type).
+Витягує старший (лівий) байт слова (або другий молодший байт, якщо тип змінної більше двох байт).
 [%hardbreaks]
 
 
@@ -28,7 +28,7 @@ Extracts the high-order (leftmost) byte of a word (or the second lowest byte of 
 
 [float]
 === Параметри
-`x`: a value of any type
+`x`: значення будь-якого типу
 
 
 [float]
