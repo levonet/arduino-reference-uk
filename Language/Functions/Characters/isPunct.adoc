@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Опис
-Analyse if a char is punctuation (that is a comma, a semicolon, an exclamation mark and so on). Returns true if thisChar is punctuation.
+Аналізує, чи є аргумент розділовим знаком (тобто комою, крапкою з комою, знаком оклику, тощо). Повертає true, якщо thisChar є пунктуацією.
 [%hardbreaks]
 
 
@@ -28,12 +28,12 @@ Analyse if a char is punctuation (that is a comma, a semicolon, an exclamation m
 
 [float]
 === Параметри
-`thisChar`: variable. Очікує тип даних: `char`.
+`thisChar`: змінна. Очікує тип даних: `char`.
 
 
 [float]
 === Повертає
-`true`: if thisChar is a punctuation.
+`true`: якщо thisChar є розділовим знаком.
 
 --
 // OVERVIEW SECTION ENDS
@@ -49,10 +49,9 @@ Analyse if a char is punctuation (that is a comma, a semicolon, an exclamation m
 
 [source,arduino]
 ----
-if (isPunct(myChar)) {  // tests if myChar is a punctuation character
+if (isPunct(myChar)) {  // Перевіряє, чи myChar є знаком пунктуації
   Serial.println("The character is a punctuation");
-}
-else {
+} else {
   Serial.println("The character is not a punctuation");
 }
 ----
@@ -70,8 +69,8 @@ else {
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (умовні оператори)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (умовні оператори)]
 * #LANGUAGE# link:../../communication/serial/read[read()]
 
 --

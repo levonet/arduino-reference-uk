@@ -13,7 +13,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Опис
-Analyse if a char is upper case (that is, a letter in upper case). Returns true if thisChar is upper case. 
+Аналізує, чи є аргумент символом великої літери (це буква з великої літери). Повертає true, якщо thisChar містить велику літеру.
 [%hardbreaks]
 
 
@@ -24,12 +24,12 @@ Analyse if a char is upper case (that is, a letter in upper case). Returns true 
 
 [float]
 === Параметри
-`thisChar`: variable. Очікує тип даних: `char`.
+`thisChar`: змінна. Очікує тип даних: `char`.
 
 
 [float]
 === Повертає
-`true`: if thisChar is upper case.
+`true`: якщо thisChar є великою літерою.
 
 --
 // OVERVIEW SECTION ENDS
@@ -45,10 +45,9 @@ Analyse if a char is upper case (that is, a letter in upper case). Returns true 
 
 [source,arduino]
 ----
-if (isUpperCase(myChar)) {  // tests if myChar is an upper case letter
+if (isUpperCase(myChar)) {  // Перевіряє, чи myChar є великою літерою
   Serial.println("The character is upper case");
-}
-else {
+} else {
   Serial.println("The character is not upper case");
 }
 ----
@@ -66,8 +65,8 @@ else {
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (умовні оператори)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (умовні оператори)]
 * #LANGUAGE# link:../../communication/serial/read[read()]
 
 --

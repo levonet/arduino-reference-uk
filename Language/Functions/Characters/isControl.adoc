@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Опис
-Analyse if a char is a control character. Returns true if thisChar is a control character.
+Аналізує, чи є аргумент керівним символом. Повертає true, якщо thisChar є https://uk.wikipedia.org/wiki/Керувальна_послідовність[керівним символом].
 [%hardbreaks]
 
 
@@ -28,12 +28,12 @@ Analyse if a char is a control character. Returns true if thisChar is a control 
 
 [float]
 === Параметри
-`thisChar`: variable. Очікує тип даних: `char`.
+`thisChar`: змінна. Очікує тип даних: `char`.
 
 
 [float]
 === Повертає
-`true`: if thisChar is a control character.
+`true`: якщо thisChar є керівним символом.
 
 --
 // OVERVIEW SECTION ENDS
@@ -49,7 +49,7 @@ Analyse if a char is a control character. Returns true if thisChar is a control 
 
 [source,arduino]
 ----
-if (isControl(myChar)) {  // tests if myChar is a control character
+if (isControl(myChar)) {  // Перевіряє, чи myChar є керівним символом
   Serial.println("The character is a control character");
 }
 else {
@@ -70,8 +70,8 @@ else {
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (умовні оператори)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (умовні оператори)]
 * #LANGUAGE# link:../../communication/serial/read[read()]
 
 --

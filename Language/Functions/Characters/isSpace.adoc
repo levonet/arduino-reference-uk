@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Опис
-Analyse if a char is a white-space character. Returns true if the argument is a space, form feed (`'\f'`), newline (`'\n'`), carriage return (`'\r'`), horizontal tab (`'\t'`), or vertical tab (`'\v'`).
+Аналізує, чи є аргумент порожнім символом. Повертає true, якщо є пробілом, зміною сторінки (`'\f'`), новим рядком (`'\n'`), поверненням каретки (`'\r'`), горизонтальною табуляцією (`'\t'`) або вертикальною табуляцією (`'\v'`).
 [%hardbreaks]
 
 
@@ -28,7 +28,7 @@ Analyse if a char is a white-space character. Returns true if the argument is a 
 
 [float]
 === Параметри
-`thisChar`: variable. Очікує тип даних: `char`.
+`thisChar`: змінна. Очікує тип даних: `char`.
 
 
 [float]
@@ -49,10 +49,9 @@ Analyse if a char is a white-space character. Returns true if the argument is a 
 
 [source,arduino]
 ----
-if (isSpace(myChar)) {  // tests if myChar is a white-space character
+if (isSpace(myChar)) {  // Перевіряє, чи myChar є порожнім символом
   Serial.println("The character is white-space");
-}
-else {
+} else {
   Serial.println("The character is not white-space");
 }
 ----
@@ -70,8 +69,8 @@ else {
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (умовні оператори)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (умовні оператори)]
 * #LANGUAGE# link:../../communication/serial/read[read()]
 
 --

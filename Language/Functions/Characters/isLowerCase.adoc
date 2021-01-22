@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Опис
-Analyse if a char is lower case (that is a letter in lower case). Returns true if thisChar contains a letter in lower case.
+Аналізує, чи є аргумент символом маленької літери (це буква з малої літери). Повертає true, якщо thisChar містить маленьку літеру.
 [%hardbreaks]
 
 
@@ -28,12 +28,12 @@ Analyse if a char is lower case (that is a letter in lower case). Returns true i
 
 [float]
 === Параметри
-`thisChar`: variable. Очікує тип даних: `char`.
+`thisChar`: змінна. Очікує тип даних: `char`.
 
 
 [float]
 === Повертає
-`true`: if thisChar is lower case.
+`true`: якщо thisChar є маленькою літерою.
 
 --
 // OVERVIEW SECTION ENDS
@@ -49,10 +49,9 @@ Analyse if a char is lower case (that is a letter in lower case). Returns true i
 
 [source,arduino]
 ----
-if (isLowerCase(myChar)) {  // tests if myChar is a lower case letter
+if (isLowerCase(myChar)) {  // Перевіряє, чи myChar є маленькою літерою
   Serial.println("The character is lower case");
-}
-else {
+} else {
   Serial.println("The character is not lower case");
 }
 ----
@@ -70,8 +69,8 @@ else {
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (умовні оператори)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (умовні оператори)]
 * #LANGUAGE# link:../../communication/serial/read[read()]
 
 --

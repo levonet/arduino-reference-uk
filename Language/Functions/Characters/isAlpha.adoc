@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Опис
-Analyse if a char is alpha (that is a letter). Returns true if thisChar contains a letter.
+Аналізує, чи є аргумент символом абетки (літерою). Повертає true, якщо thisChar містить літеру.
 [%hardbreaks]
 
 
@@ -28,12 +28,12 @@ Analyse if a char is alpha (that is a letter). Returns true if thisChar contains
 
 [float]
 === Параметри
-`thisChar`: variable. Очікує тип даних: `char`.
+`thisChar`: змінна. Очікує тип даних: `char`.
 
 
 [float]
 === Повертає
-`true`: if thisChar is alpha.
+`true`: якщо thisChar є літерою.
 
 --
 // OVERVIEW SECTION ENDS
@@ -49,10 +49,9 @@ Analyse if a char is alpha (that is a letter). Returns true if thisChar contains
 
 [source,arduino]
 ----
-if (isAlpha(myChar)) {  // tests if myChar is a letter
+if (isAlpha(myChar)) {  // Перевіряє, чи myChar — це буква
   Serial.println("The character is a letter");
-}
-else {
+} else {
   Serial.println("The character is not a letter");
 }
 ----
@@ -70,8 +69,8 @@ else {
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (умовні оператори)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (умовні оператори)]
 * #LANGUAGE# link:../../communication/serial/read[read()]
 
 --

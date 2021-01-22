@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Опис
-Analyse if a char is a digit (that is a number). Returns true if thisChar is a number.
+Аналізує, чи є аргумент символом числа (тобто цифрою). Повертає true, якщо thisChar є числом.
 [%hardbreaks]
 
 
@@ -28,12 +28,12 @@ Analyse if a char is a digit (that is a number). Returns true if thisChar is a n
 
 [float]
 === Параметри
-`thisChar`: variable. Очікує тип даних: `char`.
+`thisChar`: змінна. Очікує тип даних: `char`.
 
 
 [float]
 === Повертає
-`true`: if thisChar is a number.
+`true`: якщо thisChar є цифрою.
 
 --
 // OVERVIEW SECTION ENDS
@@ -49,10 +49,9 @@ Analyse if a char is a digit (that is a number). Returns true if thisChar is a n
 
 [source,arduino]
 ----
-if (isDigit(myChar)) {  // tests if myChar is a digit
+if (isDigit(myChar)) {  // Перевіряє, чи myChar є цифрою
   Serial.println("The character is a number");
-}
-else {
+} else {
   Serial.println("The character is not a number");
 }
 ----
@@ -70,8 +69,8 @@ else {
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (умовні оператори)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (умовні оператори)]
 * #LANGUAGE# link:../../communication/serial/read[read()]
 
 --

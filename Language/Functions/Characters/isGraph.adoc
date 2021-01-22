@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Опис
-Analyse if a char is printable with some content (space is printable but has no content). Returns true if thisChar is printable.
+Аналізує, чи можна надрукувати символ, якщо він має зображення (пробіл можна надрукувати, але він не містить зображення символу) Повертає true, якщо thisChar можна надрукувати.
 [%hardbreaks]
 
 
@@ -27,12 +27,12 @@ Analyse if a char is printable with some content (space is printable but has no 
 
 [float]
 === Параметри
-`thisChar`: variable. Очікує тип даних: `char`.
+`thisChar`: змінна. Очікує тип даних: `char`.
 
 
 [float]
 === Повертає
-`true`: if thisChar is printable.
+`true`: якщо thisChar можна надрукувати.
 
 --
 // OVERVIEW SECTION ENDS
@@ -48,10 +48,9 @@ Analyse if a char is printable with some content (space is printable but has no 
 
 [source,arduino]
 ----
-if (isGraph(myChar)) {  // tests if myChar is a printable character but not a blank space.
+if (isGraph(myChar)) {  // Перевіряє, чи myChar можна надрукувати, та він не є порожнім символом.
   Serial.println("The character is printable");
-}
-else {
+} else {
   Serial.println("The character is not printable");
 }
 ----
@@ -69,8 +68,8 @@ else {
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (умовні оператори)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (умовні оператори)]
 * #LANGUAGE# link:../../communication/serial/read[read()]
 
 --

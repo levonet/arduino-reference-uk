@@ -17,7 +17,7 @@ subCategories: [ "Characters" ]
 
 [float]
 === Опис
-Analyse if a char is an hexadecimal digit (A-F, 0-9). Returns true if thisChar contains an hexadecimal digit.
+Аналізує, чи є аргумент шістнадцятковим символом (A-F, 0-9). Повертає true, якщо thisChar містить шістнадцяткову цифру.
 [%hardbreaks]
 
 
@@ -28,12 +28,12 @@ Analyse if a char is an hexadecimal digit (A-F, 0-9). Returns true if thisChar c
 
 [float]
 === Параметри
-`thisChar`: variable. Очікує тип даних: `char`.
+`thisChar`: змінна. Очікує тип даних: `char`.
 
 
 [float]
 === Повертає
-`true`: if thisChar is an hexadecimal digit.
+`true`: якщо thisChar є шістнадцятковою цифрою.
 
 --
 // OVERVIEW SECTION ENDS
@@ -49,10 +49,9 @@ Analyse if a char is an hexadecimal digit (A-F, 0-9). Returns true if thisChar c
 
 [source,arduino]
 ----
-if (isHexadecimalDigit(myChar)) { // tests if myChar is an hexadecimal digit
+if (isHexadecimalDigit(myChar)) { // Перевіряє, чи myChar є шістнадцятковою цифрою
   Serial.println("The character is an hexadecimal digit");
-}
-else {
+} else {
   Serial.println("The character is not an hexadecimal digit");
 }
 ----
@@ -70,8 +69,8 @@ else {
 
 [role="language"]
 * #LANGUAGE#  link:../../../variables/data-types/char[char]
-* #LANGUAGE#  link:../../../structure/control-structure/if[if (conditional operators)]
-* #LANGUAGE#  link:../../../structure/control-structure/while[while (conditional operators)]
+* #LANGUAGE#  link:../../../structure/control-structure/if[if (умовні оператори)]
+* #LANGUAGE#  link:../../../structure/control-structure/while[while (умовні оператори)]
 * #LANGUAGE# link:../../communication/serial/read[read()]
 
 --
